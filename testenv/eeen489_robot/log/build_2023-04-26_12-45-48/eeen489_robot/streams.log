@@ -1,0 +1,24 @@
+[4.489s] Invoking command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot': PYTHONPATH=/home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/prefix_override:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/eeen489_robot build --build-base /home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/build install --record /home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/install.log --single-version-externally-managed
+[6.866s] running egg_info
+[6.871s] writing build/eeen489_robot/eeen489_robot.egg-info/PKG-INFO
+[6.878s] writing dependency_links to build/eeen489_robot/eeen489_robot.egg-info/dependency_links.txt
+[6.879s] writing entry points to build/eeen489_robot/eeen489_robot.egg-info/entry_points.txt
+[6.880s] writing requirements to build/eeen489_robot/eeen489_robot.egg-info/requires.txt
+[6.881s] writing top-level names to build/eeen489_robot/eeen489_robot.egg-info/top_level.txt
+[6.898s] reading manifest file 'build/eeen489_robot/eeen489_robot.egg-info/SOURCES.txt'
+[6.905s] writing manifest file 'build/eeen489_robot/eeen489_robot.egg-info/SOURCES.txt'
+[6.906s] running build
+[6.907s] running build_py
+[6.911s] running install
+[6.913s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.914s]   warnings.warn(
+[6.915s] running install_lib
+[6.923s] running install_data
+[6.928s] running install_egg_info
+[6.936s] removing '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages/eeen489_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[6.939s] Copying build/eeen489_robot/eeen489_robot.egg-info to /home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages/eeen489_robot-0.0.0-py3.10.egg-info
+[6.947s] running install_scripts
+[7.061s] Installing high_level_ros_interface_node script to /home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/eeen489_robot
+[7.064s] Installing low_level_ros_interface_node script to /home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/eeen489_robot
+[7.067s] writing list of installed files to '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/install.log'
+[7.249s] Invoked command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot' returned '0': PYTHONPATH=/home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/prefix_override:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/eeen489_robot build --build-base /home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/build install --record /home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/install.log --single-version-externally-managed

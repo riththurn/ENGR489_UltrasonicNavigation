@@ -1,0 +1,42 @@
+[0.415s] Invoking command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2 -- -j4 -l4
+[2.946s] [ 85%] Built target sllidar_node
+[2.947s] [100%] Built target sllidar_client
+[2.992s] Invoked command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2 -- -j4 -l4
+[4.225s] Invoking command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2
+[4.294s] -- Install configuration: ""
+[4.295s] -- Execute custom install script
+[4.338s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[4.339s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_launch.py
+[4.340s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[4.340s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[4.341s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[4.341s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[4.351s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[4.351s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[4.363s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_launch.py
+[4.363s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[4.364s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[4.365s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[4.390s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[4.391s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[4.392s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[4.392s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[4.393s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[4.393s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[4.408s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[4.409s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[4.409s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[4.410s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[4.410s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[4.426s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[4.427s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[4.434s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[4.458s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[4.459s] -- Symlinking: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[4.507s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[4.525s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.526s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.527s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[4.555s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[4.556s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[4.576s] Invoked command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2

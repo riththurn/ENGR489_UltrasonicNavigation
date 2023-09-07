@@ -1,0 +1,250 @@
+[1.923s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.924s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffba10a020>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffba9a6fb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffba9a6fb0>>)
+[2.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.123s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src'
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'ignore'
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'ignore_ament_install'
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['colcon_pkg']
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'colcon_pkg'
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['colcon_meta']
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'colcon_meta'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['ros']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'ros'
+[2.260s] DEBUG:colcon.colcon_core.package_identification:Package 'sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(ultrasonics) by extensions ['ignore', 'ignore_ament_install']
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(ultrasonics) by extension 'ignore'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(ultrasonics) by extension 'ignore_ament_install'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(ultrasonics) by extensions ['colcon_pkg']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(ultrasonics) by extension 'colcon_pkg'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(ultrasonics) by extensions ['colcon_meta']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(ultrasonics) by extension 'colcon_meta'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(ultrasonics) by extensions ['ros']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(ultrasonics) by extension 'ros'
+[2.267s] DEBUG:colcon.colcon_core.package_identification:Package 'ultrasonics' with type 'ros.ament_python' and name 'ultrasonics'
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(urg_node2) by extensions ['ignore', 'ignore_ament_install']
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(urg_node2) by extension 'ignore'
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(urg_node2) by extension 'ignore_ament_install'
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(urg_node2) by extensions ['colcon_pkg']
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(urg_node2) by extension 'colcon_pkg'
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(urg_node2) by extensions ['colcon_meta']
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(urg_node2) by extension 'colcon_meta'
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(urg_node2) by extensions ['ros']
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(urg_node2) by extension 'ros'
+[2.275s] DEBUG:colcon.colcon_core.package_identification:Package 'urg_node2' with type 'ros.ament_cmake' and name 'urg_node2'
+[2.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.416s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ubuntu/Documents/engr489/testenv/eeen489_robot/install
+[2.421s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install
+[2.451s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[2.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.938s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[2.939s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[2.939s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.939s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.940s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[2.940s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[2.940s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[2.940s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.940s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.941s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2', 'merge_install': False, 'path': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[2.949s] Level 5:colcon.colcon_core.verb:set package 'ultrasonics' build argument 'cmake_args' from command line to 'None'
+[2.950s] Level 5:colcon.colcon_core.verb:set package 'ultrasonics' build argument 'cmake_target' from command line to 'None'
+[2.950s] Level 5:colcon.colcon_core.verb:set package 'ultrasonics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.951s] Level 5:colcon.colcon_core.verb:set package 'ultrasonics' build argument 'cmake_clean_cache' from command line to 'False'
+[2.951s] Level 5:colcon.colcon_core.verb:set package 'ultrasonics' build argument 'cmake_clean_first' from command line to 'False'
+[2.951s] Level 5:colcon.colcon_core.verb:set package 'ultrasonics' build argument 'cmake_force_configure' from command line to 'False'
+[2.951s] Level 5:colcon.colcon_core.verb:set package 'ultrasonics' build argument 'ament_cmake_args' from command line to 'None'
+[2.952s] Level 5:colcon.colcon_core.verb:set package 'ultrasonics' build argument 'catkin_cmake_args' from command line to 'None'
+[2.952s] Level 5:colcon.colcon_core.verb:set package 'ultrasonics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.952s] DEBUG:colcon.colcon_core.verb:Building package 'ultrasonics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/ultrasonics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics', 'merge_install': False, 'path': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/ultrasonics', 'symlink_install': False, 'test_result_base': None}
+[2.958s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_args' from command line to 'None'
+[2.959s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_target' from command line to 'None'
+[2.959s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.959s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.959s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_clean_first' from command line to 'False'
+[2.960s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_force_configure' from command line to 'False'
+[2.960s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'ament_cmake_args' from command line to 'None'
+[2.960s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.960s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.960s] DEBUG:colcon.colcon_core.verb:Building package 'urg_node2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2', 'merge_install': False, 'path': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/urg_node2', 'symlink_install': False, 'test_result_base': None}
+[2.964s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.991s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.992s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2' with build type 'ament_cmake'
+[2.993s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2'
+[3.027s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.029s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.029s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.091s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/ultrasonics' with build type 'ament_python'
+[3.092s] Level 1:colcon.colcon_core.shell:create_environment_hook('ultrasonics', 'ament_prefix_path')
+[3.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/share/ultrasonics/hook/ament_prefix_path.ps1'
+[3.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/share/ultrasonics/hook/ament_prefix_path.dsv'
+[3.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/share/ultrasonics/hook/ament_prefix_path.sh'
+[3.125s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.125s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.212s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/urg_node2' with build type 'ament_cmake'
+[3.224s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/urg_node2'
+[3.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.254s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2 -- -j4 -l4
+[5.848s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/ultrasonics'
+[5.854s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.855s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2 -- -j4 -l4
+[5.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2 -- -j4 -l4
+[7.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2
+[7.560s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[7.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2
+[7.630s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2' for CMake module files
+[7.639s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2' for CMake config files
+[7.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[7.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[7.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[7.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[7.704s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/lib'
+[7.706s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/bin'
+[7.723s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[7.725s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/lib/python3.10/site-packages'
+[7.726s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/bin'
+[7.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[7.767s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[7.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[7.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[7.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[7.835s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[8.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2 -- -j4 -l4
+[8.850s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[8.879s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2' for CMake module files
+[8.887s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2' for CMake config files
+[8.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[8.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[8.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[8.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[8.936s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/lib'
+[8.937s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/bin'
+[8.938s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[8.944s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/lib/python3.10/site-packages'
+[8.946s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/bin'
+[8.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[8.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[8.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[8.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[9.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[9.008s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[9.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2
+[10.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/ultrasonics': PYTHONPATH=/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/ultrasonics/prefix_override:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ultrasonics build --build-base /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/ultrasonics/build install --record /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/ultrasonics/install.log --single-version-externally-managed
+[10.056s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node2)
+[10.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2
+[10.091s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2' for CMake module files
+[10.108s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2' for CMake config files
+[10.128s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'cmake_prefix_path')
+[10.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.ps1'
+[10.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.dsv'
+[10.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.sh'
+[10.188s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/lib'
+[10.189s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'ld_library_path_lib')
+[10.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.ps1'
+[10.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.dsv'
+[10.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.sh'
+[10.219s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/bin'
+[10.221s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/lib/pkgconfig/urg_node2.pc'
+[10.222s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/lib/python3.10/site-packages'
+[10.224s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/bin'
+[10.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/package.ps1'
+[10.275s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/package.dsv'
+[10.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/package.sh'
+[10.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/package.bash'
+[10.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/package.zsh'
+[10.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/colcon-core/packages/urg_node2)
+[11.078s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node2)
+[11.105s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2' for CMake module files
+[11.110s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2' for CMake config files
+[11.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'cmake_prefix_path')
+[11.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.ps1'
+[11.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.dsv'
+[11.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.sh'
+[11.166s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/lib'
+[11.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'ld_library_path_lib')
+[11.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.ps1'
+[11.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.dsv'
+[11.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.sh'
+[11.195s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/bin'
+[11.196s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/lib/pkgconfig/urg_node2.pc'
+[11.198s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/lib/python3.10/site-packages'
+[11.200s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/bin'
+[11.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/package.ps1'
+[11.215s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/package.dsv'
+[11.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/package.sh'
+[11.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/package.bash'
+[11.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/package.zsh'
+[11.248s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/colcon-core/packages/urg_node2)
+[12.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/ultrasonics' returned '0': PYTHONPATH=/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/ultrasonics/prefix_override:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ultrasonics build --build-base /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/ultrasonics/build install --record /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/ultrasonics/install.log --single-version-externally-managed
+[12.857s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics' for CMake module files
+[12.860s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics' for CMake config files
+[12.865s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib'
+[12.866s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/bin'
+[12.878s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/pkgconfig/ultrasonics.pc'
+[12.879s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages'
+[12.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('ultrasonics', 'pythonpath')
+[12.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/share/ultrasonics/hook/pythonpath.ps1'
+[12.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/share/ultrasonics/hook/pythonpath.dsv'
+[12.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/share/ultrasonics/hook/pythonpath.sh'
+[12.925s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/bin'
+[12.926s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ultrasonics)
+[12.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/share/ultrasonics/package.ps1'
+[12.938s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/share/ultrasonics/package.dsv'
+[12.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/share/ultrasonics/package.sh'
+[12.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/share/ultrasonics/package.bash'
+[12.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/share/ultrasonics/package.zsh'
+[12.972s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/share/colcon-core/packages/ultrasonics)
+[12.983s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.985s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.985s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.985s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.043s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.043s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.044s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.262s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.271s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/local_setup.ps1'
+[13.290s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/_local_setup_util_ps1.py'
+[13.321s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/setup.ps1'
+[13.350s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/local_setup.sh'
+[13.372s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/_local_setup_util_sh.py'
+[13.381s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/setup.sh'
+[13.406s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/local_setup.bash'
+[13.420s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/setup.bash'
+[13.459s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/local_setup.zsh'
+[13.476s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/setup.zsh'

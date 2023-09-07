@@ -1,0 +1,27 @@
+[5.851s] Invoking command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/ultrasonics': PYTHONPATH=/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/ultrasonics/prefix_override:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ultrasonics build --build-base /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/ultrasonics/build install --record /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/ultrasonics/install.log --single-version-externally-managed
+[7.203s] running egg_info
+[7.204s] writing ../build/ultrasonics/ultrasonics.egg-info/PKG-INFO
+[7.205s] writing dependency_links to ../build/ultrasonics/ultrasonics.egg-info/dependency_links.txt
+[7.206s] writing entry points to ../build/ultrasonics/ultrasonics.egg-info/entry_points.txt
+[7.206s] writing requirements to ../build/ultrasonics/ultrasonics.egg-info/requires.txt
+[7.207s] writing top-level names to ../build/ultrasonics/ultrasonics.egg-info/top_level.txt
+[7.215s] reading manifest file '../build/ultrasonics/ultrasonics.egg-info/SOURCES.txt'
+[7.223s] writing manifest file '../build/ultrasonics/ultrasonics.egg-info/SOURCES.txt'
+[7.225s] running build
+[7.225s] running build_py
+[7.227s] copying ultrasonics/ultrasonic_node_publisher.py -> /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/ultrasonics/build/lib/ultrasonics
+[7.229s] running install
+[7.230s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.231s]   warnings.warn(
+[7.232s] running install_lib
+[7.235s] copying /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/ultrasonics/build/lib/ultrasonics/ultrasonic_node_publisher.py -> /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages/ultrasonics
+[7.239s] byte-compiling /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages/ultrasonics/ultrasonic_node_publisher.py to ultrasonic_node_publisher.cpython-310.pyc
+[7.242s] running install_data
+[7.245s] running install_egg_info
+[7.252s] removing '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages/ultrasonics-0.0.0-py3.10.egg-info' (and everything under it)
+[7.254s] Copying ../build/ultrasonics/ultrasonics.egg-info to /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages/ultrasonics-0.0.0-py3.10.egg-info
+[7.261s] running install_scripts
+[7.366s] Installing ultrasonic_listener script to /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/ultrasonics
+[7.372s] Installing ultrasonic_publisher script to /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/ultrasonics
+[7.373s] writing list of installed files to '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/ultrasonics/install.log'
+[7.559s] Invoked command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/ultrasonics' returned '0': PYTHONPATH=/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/ultrasonics/prefix_override:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ultrasonics build --build-base /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/ultrasonics/build install --record /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/ultrasonics/install.log --single-version-externally-managed

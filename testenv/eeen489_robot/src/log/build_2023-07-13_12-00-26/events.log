@@ -1,0 +1,417 @@
+[0.000000] (-) TimerEvent: {}
+[0.004147] (nav2_gradient_costmap_ultrasonics) JobQueued: {'identifier': 'nav2_gradient_costmap_ultrasonics', 'dependencies': OrderedDict()}
+[0.005361] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.006118] (ultrasonics) JobQueued: {'identifier': 'ultrasonics', 'dependencies': OrderedDict()}
+[0.006738] (urg_node2) JobQueued: {'identifier': 'urg_node2', 'dependencies': OrderedDict()}
+[0.014282] (nav2_gradient_costmap_ultrasonics) JobStarted: {'identifier': 'nav2_gradient_costmap_ultrasonics'}
+[0.096115] (-) TimerEvent: {}
+[0.168541] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.202152] (-) TimerEvent: {}
+[0.244547] (ultrasonics) JobStarted: {'identifier': 'ultrasonics'}
+[0.302513] (-) TimerEvent: {}
+[0.404965] (-) TimerEvent: {}
+[0.455239] (urg_node2) JobStarted: {'identifier': 'urg_node2'}
+[0.509328] (-) TimerEvent: {}
+[0.609297] (nav2_gradient_costmap_ultrasonics) JobProgress: {'identifier': 'nav2_gradient_costmap_ultrasonics', 'progress': 'cmake'}
+[0.627642] (-) TimerEvent: {}
+[0.636802] (nav2_gradient_costmap_ultrasonics) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/nav2_gradient_costmap_ultrasonics', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/nav2_gradient_costmap_ultrasonics'], 'cwd': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/nav2_gradient_costmap_ultrasonics', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NZ:en'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1187'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/texlive/2022/bin/aarch64-linux:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/EEEN325-Robot-Test:@/tmp/.ICE-unix/1161,unix/EEEN325-Robot-Test:/tmp/.ICE-unix/1161'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/792fdfdc_02c7_456b_b883_e5cf5429888a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_NZ.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8CMK71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/nav2_gradient_costmap_ultrasonics'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble')]), 'shell': False}
+[0.699436] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.724615] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[0.751559] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NZ:en'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1187'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/texlive/2022/bin/aarch64-linux:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/EEEN325-Robot-Test:@/tmp/.ICE-unix/1161,unix/EEEN325-Robot-Test:/tmp/.ICE-unix/1161'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/792fdfdc_02c7_456b_b883_e5cf5429888a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_NZ.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8CMK71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble')]), 'shell': False}
+[0.780698] (-) TimerEvent: {}
+[0.891454] (-) TimerEvent: {}
+[0.994747] (-) TimerEvent: {}
+[1.101077] (-) TimerEvent: {}
+[1.205302] (-) TimerEvent: {}
+[1.312243] (-) TimerEvent: {}
+[1.415352] (-) TimerEvent: {}
+[1.519155] (-) TimerEvent: {}
+[1.659014] (-) TimerEvent: {}
+[1.771299] (-) TimerEvent: {}
+[1.876048] (-) TimerEvent: {}
+[1.985109] (-) TimerEvent: {}
+[2.087321] (-) TimerEvent: {}
+[2.192222] (-) TimerEvent: {}
+[2.307547] (-) TimerEvent: {}
+[2.412288] (-) TimerEvent: {}
+[2.539616] (-) TimerEvent: {}
+[2.646262] (-) TimerEvent: {}
+[2.753107] (-) TimerEvent: {}
+[2.858782] (-) TimerEvent: {}
+[2.965592] (-) TimerEvent: {}
+[3.066785] (-) TimerEvent: {}
+[3.170340] (-) TimerEvent: {}
+[3.272206] (-) TimerEvent: {}
+[3.374644] (-) TimerEvent: {}
+[3.478589] (-) TimerEvent: {}
+[3.583917] (-) TimerEvent: {}
+[3.685652] (-) TimerEvent: {}
+[3.787572] (-) TimerEvent: {}
+[3.890195] (-) TimerEvent: {}
+[3.992420] (-) TimerEvent: {}
+[4.095310] (-) TimerEvent: {}
+[4.197805] (-) TimerEvent: {}
+[4.300333] (-) TimerEvent: {}
+[4.404225] (-) TimerEvent: {}
+[4.505391] (-) TimerEvent: {}
+[4.607522] (-) TimerEvent: {}
+[4.709326] (-) TimerEvent: {}
+[4.811086] (-) TimerEvent: {}
+[4.914111] (-) TimerEvent: {}
+[5.016006] (-) TimerEvent: {}
+[5.125200] (-) TimerEvent: {}
+[5.227222] (-) TimerEvent: {}
+[5.329647] (-) TimerEvent: {}
+[5.455418] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[5.458050] (-) TimerEvent: {}
+[5.477521] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[5.501993] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.524561] (sllidar_ros2) StdoutLine: {'line': b'[ 85%] Built target sllidar_node\n'}
+[5.549506] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_client\n'}
+[5.550812] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'cmake'}
+[5.558292] (-) TimerEvent: {}
+[5.587109] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'build'}
+[5.591369] (urg_node2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NZ:en'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1187'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/texlive/2022/bin/aarch64-linux:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/EEEN325-Robot-Test:@/tmp/.ICE-unix/1161,unix/EEEN325-Robot-Test:/tmp/.ICE-unix/1161'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/792fdfdc_02c7_456b_b883_e5cf5429888a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_NZ.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8CMK71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble')]), 'shell': False}
+[5.664523] (-) TimerEvent: {}
+[5.729370] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[5.764677] (-) TimerEvent: {}
+[5.875102] (-) TimerEvent: {}
+[5.987269] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.990339] (-) TimerEvent: {}
+[6.118318] (-) TimerEvent: {}
+[6.211368] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.219406] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.220361] (-) TimerEvent: {}
+[6.241610] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.291869] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.320599] (-) TimerEvent: {}
+[6.421683] (-) TimerEvent: {}
+[6.523501] (-) TimerEvent: {}
+[6.632146] (-) TimerEvent: {}
+[6.741851] (-) TimerEvent: {}
+[6.846247] (-) TimerEvent: {}
+[6.953672] (-) TimerEvent: {}
+[6.967452] (urg_node2) StdoutLine: {'line': b'[ 45%] Built target urg_c\n'}
+[7.054200] (-) TimerEvent: {}
+[7.159301] (-) TimerEvent: {}
+[7.261097] (-) TimerEvent: {}
+[7.370679] (-) TimerEvent: {}
+[7.472647] (-) TimerEvent: {}
+[7.499504] (urg_node2) StdoutLine: {'line': b'[ 55%] Built target gtest\n'}
+[7.540842] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[7.575084] (-) TimerEvent: {}
+[7.689969] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2'], 'cwd': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NZ:en'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1187'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/texlive/2022/bin/aarch64-linux:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/EEEN325-Robot-Test:@/tmp/.ICE-unix/1161,unix/EEEN325-Robot-Test:/tmp/.ICE-unix/1161'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/792fdfdc_02c7_456b_b883_e5cf5429888a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_NZ.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8CMK71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble')]), 'shell': False}
+[7.713153] (-) TimerEvent: {}
+[7.808679] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.817703] (-) TimerEvent: {}
+[7.833659] (sllidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.858859] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[7.887094] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_launch.py\n'}
+[7.888129] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[7.888903] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[7.889736] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[7.890580] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[7.894496] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[7.895914] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[7.897177] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_launch.py\n'}
+[7.899220] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[7.905280] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[7.950108] (-) TimerEvent: {}
+[7.967709] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[7.988130] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[8.004062] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[8.005338] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[8.009608] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[8.010850] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[8.026377] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[8.036638] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[8.039337] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[8.041230] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[8.055789] (-) TimerEvent: {}
+[8.071544] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[8.073422] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[8.074323] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[8.105409] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[8.107117] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[8.108816] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[8.110671] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[8.144617] (urg_node2) StdoutLine: {'line': b'[ 65%] Built target urg_node2\n'}
+[8.159367] (-) TimerEvent: {}
+[8.196478] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[8.214690] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.241324] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.242144] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.249612] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[8.254815] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[8.282813] (-) TimerEvent: {}
+[8.287810] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[8.324223] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[8.396706] (-) TimerEvent: {}
+[8.440060] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.449730] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.465065] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.517925] (-) TimerEvent: {}
+[8.560770] (urg_node2) StdoutLine: {'line': b'[ 75%] Built target gtest_main\n'}
+[8.622512] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[8.624139] (-) TimerEvent: {}
+[8.731940] (-) TimerEvent: {}
+[8.845348] (-) TimerEvent: {}
+[8.947997] (-) TimerEvent: {}
+[9.050637] (-) TimerEvent: {}
+[9.153306] (-) TimerEvent: {}
+[9.254978] (-) TimerEvent: {}
+[9.312129] (urg_node2) StdoutLine: {'line': b'[ 85%] Built target urg_node2_node\n'}
+[9.355182] (-) TimerEvent: {}
+[9.456561] (-) TimerEvent: {}
+[9.590713] (-) TimerEvent: {}
+[9.695303] (-) TimerEvent: {}
+[9.797500] (-) TimerEvent: {}
+[9.900136] (-) TimerEvent: {}
+[9.949740] (urg_node2) StdoutLine: {'line': b'[100%] Built target urg_node2_test\n'}
+[10.006173] (-) TimerEvent: {}
+[10.110280] (-) TimerEvent: {}
+[10.158358] (urg_node2) CommandEnded: {'returncode': 0}
+[10.210762] (-) TimerEvent: {}
+[10.314087] (-) TimerEvent: {}
+[10.416655] (-) TimerEvent: {}
+[10.523774] (-) TimerEvent: {}
+[10.631369] (-) TimerEvent: {}
+[10.736683] (-) TimerEvent: {}
+[10.847764] (-) TimerEvent: {}
+[10.956489] (-) TimerEvent: {}
+[11.072757] (-) TimerEvent: {}
+[11.179321] (-) TimerEvent: {}
+[11.207211] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[11.287493] (-) TimerEvent: {}
+[11.398821] (-) TimerEvent: {}
+[11.500761] (-) TimerEvent: {}
+[11.539341] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'install'}
+[11.553426] (urg_node2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2'], 'cwd': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NZ:en'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1187'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/texlive/2022/bin/aarch64-linux:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/EEEN325-Robot-Test:@/tmp/.ICE-unix/1161,unix/EEEN325-Robot-Test:/tmp/.ICE-unix/1161'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/792fdfdc_02c7_456b_b883_e5cf5429888a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_NZ.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8CMK71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble')]), 'shell': False}
+[11.601836] (-) TimerEvent: {}
+[11.719246] (-) TimerEvent: {}
+[11.721271] (urg_node2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.735610] (urg_node2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.753491] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/lib/urg_node2/urg_node2_node\n'}
+[11.779317] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/lib/liburg_node2.so\n'}
+[11.791169] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/lib/liburg_c.so\n'}
+[11.794923] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/launch/urg_node2.launch.py\n'}
+[11.797138] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/launch/urg_node2_2lidar.launch.py\n'}
+[11.798750] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/launch/urg_node2_component.launch.py\n'}
+[11.821114] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/config/params_ether.yaml\n'}
+[11.833336] (-) TimerEvent: {}
+[11.834282] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/config/params_ether_2nd.yaml\n'}
+[11.849493] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/config/params_serial.yaml\n'}
+[11.850279] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/ament_index/resource_index/package_run_dependencies/urg_node2\n'}
+[11.856079] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/ament_index/resource_index/parent_prefix_path/urg_node2\n'}
+[11.856946] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/environment/ament_prefix_path.sh\n'}
+[11.857673] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/environment/ament_prefix_path.dsv\n'}
+[11.858657] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/environment/path.sh\n'}
+[11.887123] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/environment/path.dsv\n'}
+[11.889754] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/local_setup.bash\n'}
+[11.891733] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/local_setup.sh\n'}
+[11.897769] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/local_setup.zsh\n'}
+[11.909149] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/local_setup.dsv\n'}
+[11.916020] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/package.dsv\n'}
+[11.933755] (-) TimerEvent: {}
+[12.037468] (-) TimerEvent: {}
+[12.119221] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/ament_index/resource_index/packages/urg_node2\n'}
+[12.126490] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/ament_index/resource_index/rclcpp_components/urg_node2\n'}
+[12.137038] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/cmake/urg_node2Config.cmake\n'}
+[12.138260] (-) TimerEvent: {}
+[12.149613] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/cmake/urg_node2Config-version.cmake\n'}
+[12.170387] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/package.xml\n'}
+[12.251198] (urg_node2) CommandEnded: {'returncode': 0}
+[12.255988] (-) TimerEvent: {}
+[12.362414] (-) TimerEvent: {}
+[12.470103] (-) TimerEvent: {}
+[12.574071] (-) TimerEvent: {}
+[12.683267] (-) TimerEvent: {}
+[12.785076] (-) TimerEvent: {}
+[12.895455] (-) TimerEvent: {}
+[13.001139] (-) TimerEvent: {}
+[13.103940] (-) TimerEvent: {}
+[13.217262] (-) TimerEvent: {}
+[13.323895] (-) TimerEvent: {}
+[13.428016] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[13.429765] (-) TimerEvent: {}
+[13.538713] (-) TimerEvent: {}
+[13.645198] (-) TimerEvent: {}
+[13.749598] (-) TimerEvent: {}
+[13.854449] (-) TimerEvent: {}
+[13.956184] (-) TimerEvent: {}
+[14.063835] (-) TimerEvent: {}
+[14.170050] (-) TimerEvent: {}
+[14.254775] (urg_node2) JobEnded: {'identifier': 'urg_node2', 'rc': 0}
+[14.270822] (-) TimerEvent: {}
+[14.380394] (-) TimerEvent: {}
+[14.483119] (-) TimerEvent: {}
+[14.584360] (-) TimerEvent: {}
+[14.686784] (-) TimerEvent: {}
+[14.790743] (-) TimerEvent: {}
+[14.904005] (-) TimerEvent: {}
+[15.005037] (-) TimerEvent: {}
+[15.106606] (-) TimerEvent: {}
+[15.210109] (-) TimerEvent: {}
+[15.314624] (-) TimerEvent: {}
+[15.355441] (ultrasonics) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/ultrasonics', 'build', '--build-base', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/ultrasonics/build', 'install', '--record', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/ultrasonics/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/ultrasonics', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_NZ:en', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1187', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/texlive/2022/bin/aarch64-linux:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/EEEN325-Robot-Test:@/tmp/.ICE-unix/1161,unix/EEEN325-Robot-Test:/tmp/.ICE-unix/1161', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/792fdfdc_02c7_456b_b883_e5cf5429888a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_NZ.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.8CMK71', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/ultrasonics', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/ultrasonics/prefix_override:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2'}, 'shell': False}
+[15.415123] (-) TimerEvent: {}
+[15.517434] (-) TimerEvent: {}
+[15.619420] (-) TimerEvent: {}
+[15.723010] (-) TimerEvent: {}
+[15.825714] (-) TimerEvent: {}
+[15.855832] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[15.926094] (-) TimerEvent: {}
+[16.028265] (-) TimerEvent: {}
+[16.131380] (-) TimerEvent: {}
+[16.234735] (-) TimerEvent: {}
+[16.337926] (-) TimerEvent: {}
+[16.441613] (-) TimerEvent: {}
+[16.545801] (-) TimerEvent: {}
+[16.647885] (-) TimerEvent: {}
+[16.722286] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[16.748301] (-) TimerEvent: {}
+[16.836475] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[16.849210] (-) TimerEvent: {}
+[16.951981] (-) TimerEvent: {}
+[17.002501] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[17.052458] (-) TimerEvent: {}
+[17.155367] (-) TimerEvent: {}
+[17.221554] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[17.255559] (-) TimerEvent: {}
+[17.356963] (-) TimerEvent: {}
+[17.458542] (-) TimerEvent: {}
+[17.502027] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[17.558783] (-) TimerEvent: {}
+[17.660546] (-) TimerEvent: {}
+[17.762540] (-) TimerEvent: {}
+[17.864518] (-) TimerEvent: {}
+[17.968312] (-) TimerEvent: {}
+[18.071114] (-) TimerEvent: {}
+[18.173339] (-) TimerEvent: {}
+[18.275770] (-) TimerEvent: {}
+[18.340511] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[18.374128] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[18.375934] (-) TimerEvent: {}
+[18.476766] (-) TimerEvent: {}
+[18.529173] (ultrasonics) StdoutLine: {'line': b'running egg_info\n'}
+[18.532175] (ultrasonics) StdoutLine: {'line': b'writing ../build/ultrasonics/ultrasonics.egg-info/PKG-INFO\n'}
+[18.533656] (ultrasonics) StdoutLine: {'line': b'writing dependency_links to ../build/ultrasonics/ultrasonics.egg-info/dependency_links.txt\n'}
+[18.535088] (ultrasonics) StdoutLine: {'line': b'writing entry points to ../build/ultrasonics/ultrasonics.egg-info/entry_points.txt\n'}
+[18.536790] (ultrasonics) StdoutLine: {'line': b'writing requirements to ../build/ultrasonics/ultrasonics.egg-info/requires.txt\n'}
+[18.537477] (ultrasonics) StdoutLine: {'line': b'writing top-level names to ../build/ultrasonics/ultrasonics.egg-info/top_level.txt\n'}
+[18.545337] (ultrasonics) StdoutLine: {'line': b"reading manifest file '../build/ultrasonics/ultrasonics.egg-info/SOURCES.txt'\n"}
+[18.554471] (ultrasonics) StdoutLine: {'line': b"writing manifest file '../build/ultrasonics/ultrasonics.egg-info/SOURCES.txt'\n"}
+[18.557131] (ultrasonics) StdoutLine: {'line': b'running build\n'}
+[18.558833] (ultrasonics) StdoutLine: {'line': b'running build_py\n'}
+[18.561432] (ultrasonics) StdoutLine: {'line': b'running install\n'}
+[18.563955] (ultrasonics) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[18.565699] (ultrasonics) StderrLine: {'line': b'  warnings.warn(\n'}
+[18.567636] (ultrasonics) StdoutLine: {'line': b'running install_lib\n'}
+[18.574616] (ultrasonics) StdoutLine: {'line': b'running install_data\n'}
+[18.576922] (-) TimerEvent: {}
+[18.578120] (ultrasonics) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.585998] (ultrasonics) StdoutLine: {'line': b"removing '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages/ultrasonics-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[18.597178] (ultrasonics) StdoutLine: {'line': b'Copying ../build/ultrasonics/ultrasonics.egg-info to /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages/ultrasonics-0.0.0-py3.10.egg-info\n'}
+[18.597998] (ultrasonics) StdoutLine: {'line': b'running install_scripts\n'}
+[18.677462] (-) TimerEvent: {}
+[18.739098] (ultrasonics) StdoutLine: {'line': b'Installing ultrasonic_listener script to /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/ultrasonics\n'}
+[18.740327] (ultrasonics) StdoutLine: {'line': b'Installing ultrasonic_publisher script to /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/ultrasonics\n'}
+[18.743759] (ultrasonics) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/ultrasonics/install.log'\n"}
+[18.777816] (-) TimerEvent: {}
+[18.879306] (-) TimerEvent: {}
+[18.951112] (ultrasonics) CommandEnded: {'returncode': 0}
+[18.979809] (-) TimerEvent: {}
+[19.082151] (-) TimerEvent: {}
+[19.161949] (ultrasonics) JobEnded: {'identifier': 'ultrasonics', 'rc': 0}
+[19.184129] (-) TimerEvent: {}
+[19.286122] (-) TimerEvent: {}
+[19.390395] (-) TimerEvent: {}
+[19.410810] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[19.491088] (-) TimerEvent: {}
+[19.593535] (-) TimerEvent: {}
+[19.697470] (-) TimerEvent: {}
+[19.801828] (-) TimerEvent: {}
+[19.904625] (-) TimerEvent: {}
+[20.009055] (-) TimerEvent: {}
+[20.113758] (-) TimerEvent: {}
+[20.164044] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[20.214332] (-) TimerEvent: {}
+[20.316415] (-) TimerEvent: {}
+[20.419365] (-) TimerEvent: {}
+[20.521906] (-) TimerEvent: {}
+[20.624864] (-) TimerEvent: {}
+[20.728130] (-) TimerEvent: {}
+[20.804145] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[20.828514] (-) TimerEvent: {}
+[20.930790] (-) TimerEvent: {}
+[20.971003] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[21.031268] (-) TimerEvent: {}
+[21.132686] (-) TimerEvent: {}
+[21.235042] (-) TimerEvent: {}
+[21.337459] (-) TimerEvent: {}
+[21.442456] (-) TimerEvent: {}
+[21.544888] (-) TimerEvent: {}
+[21.648440] (-) TimerEvent: {}
+[21.750759] (-) TimerEvent: {}
+[21.853231] (-) TimerEvent: {}
+[21.954597] (-) TimerEvent: {}
+[22.020835] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[22.023450] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[22.054997] (-) TimerEvent: {}
+[22.156926] (-) TimerEvent: {}
+[22.258910] (-) TimerEvent: {}
+[22.361149] (-) TimerEvent: {}
+[22.467497] (-) TimerEvent: {}
+[22.570244] (-) TimerEvent: {}
+[22.672812] (-) TimerEvent: {}
+[22.774698] (-) TimerEvent: {}
+[22.879104] (-) TimerEvent: {}
+[22.889220] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[22.897287] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[22.979705] (-) TimerEvent: {}
+[23.082497] (-) TimerEvent: {}
+[23.184640] (-) TimerEvent: {}
+[23.286424] (-) TimerEvent: {}
+[23.387909] (-) TimerEvent: {}
+[23.489825] (-) TimerEvent: {}
+[23.593056] (-) TimerEvent: {}
+[23.695344] (-) TimerEvent: {}
+[23.796459] (-) TimerEvent: {}
+[23.898332] (-) TimerEvent: {}
+[23.999983] (-) TimerEvent: {}
+[24.103431] (-) TimerEvent: {}
+[24.205218] (-) TimerEvent: {}
+[24.306706] (-) TimerEvent: {}
+[24.413371] (-) TimerEvent: {}
+[24.515989] (-) TimerEvent: {}
+[24.617004] (-) TimerEvent: {}
+[24.718443] (-) TimerEvent: {}
+[24.820360] (-) TimerEvent: {}
+[24.921838] (-) TimerEvent: {}
+[25.023313] (-) TimerEvent: {}
+[25.104589] (nav2_gradient_costmap_ultrasonics) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (find_package):\n'}
+[25.107092] (nav2_gradient_costmap_ultrasonics) StderrLine: {'line': b'  By not providing "Findnav2_costmap_2d.cmake" in CMAKE_MODULE_PATH this\n'}
+[25.108271] (nav2_gradient_costmap_ultrasonics) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[25.109452] (nav2_gradient_costmap_ultrasonics) StderrLine: {'line': b'  "nav2_costmap_2d", but CMake did not find one.\n'}
+[25.118119] (nav2_gradient_costmap_ultrasonics) StderrLine: {'line': b'\n'}
+[25.125023] (-) TimerEvent: {}
+[25.126679] (nav2_gradient_costmap_ultrasonics) StderrLine: {'line': b'  Could not find a package configuration file provided by "nav2_costmap_2d"\n'}
+[25.128567] (nav2_gradient_costmap_ultrasonics) StderrLine: {'line': b'  with any of the following names:\n'}
+[25.130439] (nav2_gradient_costmap_ultrasonics) StderrLine: {'line': b'\n'}
+[25.140971] (nav2_gradient_costmap_ultrasonics) StderrLine: {'line': b'    nav2_costmap_2dConfig.cmake\n'}
+[25.145047] (nav2_gradient_costmap_ultrasonics) StderrLine: {'line': b'    nav2_costmap_2d-config.cmake\n'}
+[25.153695] (nav2_gradient_costmap_ultrasonics) StderrLine: {'line': b'\n'}
+[25.164477] (nav2_gradient_costmap_ultrasonics) StderrLine: {'line': b'  Add the installation prefix of "nav2_costmap_2d" to CMAKE_PREFIX_PATH or\n'}
+[25.168265] (nav2_gradient_costmap_ultrasonics) StderrLine: {'line': b'  set "nav2_costmap_2d_DIR" to a directory containing one of the above files.\n'}
+[25.175331] (nav2_gradient_costmap_ultrasonics) StderrLine: {'line': b'  If "nav2_costmap_2d" provides a separate development package or SDK, be\n'}
+[25.180582] (nav2_gradient_costmap_ultrasonics) StderrLine: {'line': b'  sure it has been installed.\n'}
+[25.190587] (nav2_gradient_costmap_ultrasonics) StderrLine: {'line': b'\n'}
+[25.192106] (nav2_gradient_costmap_ultrasonics) StderrLine: {'line': b'\x1b[0m\n'}
+[25.193347] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[25.194796] (nav2_gradient_costmap_ultrasonics) StdoutLine: {'line': b'See also "/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/nav2_gradient_costmap_ultrasonics/CMakeFiles/CMakeOutput.log".\n'}
+[25.202342] (nav2_gradient_costmap_ultrasonics) CommandEnded: {'returncode': 1}
+[25.228943] (-) TimerEvent: {}
+[25.336409] (-) TimerEvent: {}
+[25.430039] (nav2_gradient_costmap_ultrasonics) JobEnded: {'identifier': 'nav2_gradient_costmap_ultrasonics', 'rc': 1}
+[25.439470] (-) TimerEvent: {}
+[25.453199] (-) EventReactorShutdown: {}

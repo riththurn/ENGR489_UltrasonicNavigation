@@ -1,0 +1,91 @@
+[2.124s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.124s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa119df90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa1a36fb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa1a36fb0>>)
+[2.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.462s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot'
+[2.463s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.466s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.466s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.466s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.556s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'eeen489_robot'
+[2.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.726s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ubuntu/Documents/engr489/testenv/eeen489_robot/install
+[2.736s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install
+[2.749s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[2.762s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.289s] Level 5:colcon.colcon_core.verb:set package 'eeen489_robot' build argument 'cmake_args' from command line to 'None'
+[3.290s] Level 5:colcon.colcon_core.verb:set package 'eeen489_robot' build argument 'cmake_target' from command line to 'None'
+[3.290s] Level 5:colcon.colcon_core.verb:set package 'eeen489_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.292s] Level 5:colcon.colcon_core.verb:set package 'eeen489_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[3.292s] Level 5:colcon.colcon_core.verb:set package 'eeen489_robot' build argument 'cmake_clean_first' from command line to 'False'
+[3.292s] Level 5:colcon.colcon_core.verb:set package 'eeen489_robot' build argument 'cmake_force_configure' from command line to 'False'
+[3.293s] Level 5:colcon.colcon_core.verb:set package 'eeen489_robot' build argument 'ament_cmake_args' from command line to 'None'
+[3.293s] Level 5:colcon.colcon_core.verb:set package 'eeen489_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[3.293s] Level 5:colcon.colcon_core.verb:set package 'eeen489_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.293s] DEBUG:colcon.colcon_core.verb:Building package 'eeen489_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot', 'merge_install': False, 'path': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot', 'symlink_install': False, 'test_result_base': None}
+[3.299s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.320s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.328s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot' with build type 'ament_python'
+[3.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('eeen489_robot', 'ament_prefix_path')
+[3.364s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/share/eeen489_robot/hook/ament_prefix_path.ps1'
+[3.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/share/eeen489_robot/hook/ament_prefix_path.dsv'
+[3.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/share/eeen489_robot/hook/ament_prefix_path.sh'
+[3.396s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.401s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.699s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot'
+[5.708s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.708s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot': PYTHONPATH=/home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/prefix_override:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/eeen489_robot build --build-base /home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/build install --record /home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/install.log --single-version-externally-managed
+[10.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot' returned '0': PYTHONPATH=/home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/prefix_override:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/eeen489_robot build --build-base /home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/build install --record /home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/install.log --single-version-externally-managed
+[10.415s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot' for CMake module files
+[10.421s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot' for CMake config files
+[10.428s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib'
+[10.429s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/bin'
+[10.430s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/pkgconfig/eeen489_robot.pc'
+[10.431s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages'
+[10.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('eeen489_robot', 'pythonpath')
+[10.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/share/eeen489_robot/hook/pythonpath.ps1'
+[10.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/share/eeen489_robot/hook/pythonpath.dsv'
+[10.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/share/eeen489_robot/hook/pythonpath.sh'
+[10.464s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/bin'
+[10.470s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eeen489_robot)
+[10.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/share/eeen489_robot/package.ps1'
+[10.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/share/eeen489_robot/package.dsv'
+[10.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/share/eeen489_robot/package.sh'
+[10.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/share/eeen489_robot/package.bash'
+[10.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/share/eeen489_robot/package.zsh'
+[10.501s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/share/colcon-core/packages/eeen489_robot)
+[10.507s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.509s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.509s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.510s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.547s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.548s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.548s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.731s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.741s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/local_setup.ps1'
+[10.750s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/_local_setup_util_ps1.py'
+[10.761s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/setup.ps1'
+[10.787s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/local_setup.sh'
+[10.798s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/_local_setup_util_sh.py'
+[10.804s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/setup.sh'
+[10.823s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/local_setup.bash'
+[10.826s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/setup.bash'
+[10.836s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/local_setup.zsh'
+[10.839s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/setup.zsh'

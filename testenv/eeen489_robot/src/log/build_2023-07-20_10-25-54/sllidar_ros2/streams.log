@@ -1,0 +1,363 @@
+[0.381s] Invoking command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2 -- -j4 -l4
+[5.976s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.980s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.981s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[5.982s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.984s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.985s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.993s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.994s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.996s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.075s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.656s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.467s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[16.466s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[18.714s] -- Configuring done
+[19.011s] -- Generating done
+[19.058s] -- Build files have been written to: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2
+[19.821s] [35m[1mConsolidate compiler generated dependencies of target sllidar_node[0m
+[20.276s] [  7%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o[0m
+[52.919s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[52.932s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[52.937s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[52.939s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[52.940s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[52.959s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[52.977s]       |                [01;35m[K^[m[K
+[52.978s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[52.979s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[52.980s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[52.981s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[52.982s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[52.983s]       |                    [01;35m[K^[m[K
+[66.784s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/src/sllidar_node.cpp:[m[K In member function ‘[01m[Kbool SLlidarNode::checkSLLIDARHealth(sl::ILidarDriver*)[m[K’:
+[66.786s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/src/sllidar_node.cpp:147:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[66.788s]   147 |     [01;35m[K}[m[K
+[66.799s]       |     [01;35m[K^[m[K
+[89.458s] [ 14%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[90.749s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/src/sdkcommon.h:47[m[K,
+[90.753s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[90.761s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/src/hal/assert.h:1:1:[m[K [01;35m[Kwarning: [m[Knull character(s) ignored
+[90.766s]     1 | [01;35m[K [m[K                                                                                                                                                                                                                                                                                                                        
+[90.769s]       | [01;35m[K^[m[K
+[94.672s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[94.674s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[94.675s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[94.676s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[94.677s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[94.679s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[94.680s]       |                [01;35m[K^[m[K
+[94.702s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[94.703s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[94.704s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[94.704s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[94.705s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[94.705s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[94.706s]       |                    [01;35m[K^[m[K
+[94.706s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::StreamSocketImpl::send(const void*, size_t)[m[K’:
+[94.707s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:438:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[94.707s]   438 |         if ([01;35m[Kans == (int)len[m[K) {
+[94.708s]       |             [01;35m[K~~~~^~~~~~~~~~~[m[K
+[94.708s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress&, const void*, size_t)[m[K’:
+[94.709s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:722:39:[m[K [01;35m[Kwarning: [m[Kthe compiler can assume that the address of ‘[01m[Ktarget[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[94.710s]   722 |         const struct sockaddr* addr = [01;35m[K&target[m[K ? reinterpret_cast<const struct sockaddr*>(target.getPlatformData()) : NULL;
+[94.710s]       |                                       [01;35m[K^~~~~~~[m[K
+[94.711s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/src/arch/linux/arch_linux.h:42[m[K,
+[94.711s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/src/sdkcommon.h:41[m[K,
+[94.712s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[94.712s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:726:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[94.713s]   726 |             assert([01;35m[Kans == (int)len[m[K);
+[94.726s]       |                    [01;35m[K~~~~^~~~~~~~~~~[m[K
+[95.473s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:722:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Knonnull[m[K’ argument ‘[01m[Ktarget[m[K’ compared to NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-compare-Wnonnull-compare]8;;[m[K]
+[95.474s]   722 |         const struct sockaddr* addr = &target [01;35m[K?[m[K reinterpret_cast<const struct sockaddr*>(target.getPlatformData()) : NULL;
+[95.475s]       |                                               [01;35m[K^[m[K
+[97.119s] [ 21%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[102.223s] [ 28%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/hal/thread.cpp.o[0m
+[103.470s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/src/sdkcommon.h:47[m[K,
+[103.471s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[103.473s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/src/hal/assert.h:1:1:[m[K [01;35m[Kwarning: [m[Knull character(s) ignored
+[103.478s]     1 | [01;35m[K [m[K                                                                                                                                                                                                                                                                                                                        
+[103.485s]       | [01;35m[K^[m[K
+[106.950s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[106.951s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[106.954s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[106.955s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[106.956s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[106.972s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[106.976s]       |                [01;35m[K^[m[K
+[106.985s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[106.987s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[106.999s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[107.006s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[107.008s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[107.014s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[107.016s]       |                    [01;35m[K^[m[K
+[107.596s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/hal/thread.cpp:43[m[K:
+[107.598s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[107.601s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:48:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[107.606s]    48 |     pthread_create((pthread_t *)&newborn._handle, NULL, [01;35m[K(void * (*)(void *))proc[m[K, data);
+[107.609s]       |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[107.617s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::join(long unsigned int)[m[K’:
+[107.620s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[107.625s]   129 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[107.626s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[108.548s] [ 35%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/rplidar_driver.cpp.o[0m
+[109.846s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sdkcommon.h:47[m[K,
+[109.847s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33[m[K:
+[109.848s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/hal/assert.h:1:1:[m[K [01;35m[Kwarning: [m[Knull character(s) ignored
+[109.849s]     1 | [01;35m[K [m[K                                                                                                                                                                                                                                                                                                                        
+[109.850s]       | [01;35m[K^[m[K
+[109.951s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:37[m[K:
+[109.952s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/hal/assert.h:1:1:[m[K [01;35m[Kwarning: [m[Knull character(s) ignored
+[109.955s]     1 | [01;35m[K [m[K                                                                                                                                                                                                                                                                                                                        
+[109.955s]       | [01;35m[K^[m[K
+[114.013s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[114.018s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[114.042s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[114.045s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33[m[K:
+[114.058s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[114.060s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[114.061s]       |                [01;35m[K^[m[K
+[114.063s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[114.064s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[114.065s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[114.066s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33[m[K:
+[114.068s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[114.069s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[114.071s]       |                    [01;35m[K^[m[K
+[115.963s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)[m[K’:
+[115.969s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:67:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[115.981s]    67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, [01;35m[K_u32 flag[m[K)
+[115.983s]       |                                                                        [01;35m[K~~~~~^~~~[m[K
+[115.984s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)[m[K’:
+[115.993s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:101:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[115.996s]   101 |     u_result RPlidarDriver::reset([01;35m[K_u32 timeout[m[K)
+[116.006s]       |                                   [01;35m[K~~~~~^~~~~~~[m[K
+[116.011s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)[m[K’:
+[116.015s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:175:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodebuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[116.017s]   175 |     u_result RPlidarDriver::getScanDataWithInterval([01;35m[Krplidar_response_measurement_node_t * nodebuffer[m[K, size_t & count)
+[116.018s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[116.022s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:175:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[116.024s]   175 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, [01;35m[Ksize_t & count[m[K)
+[116.028s]       |                                                                                                       [01;35m[K~~~~~~~~~^~~~~[m[K
+[117.603s] [ 42%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_crc.cpp.o[0m
+[117.835s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[117.842s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_crc.h:36[m[K,
+[117.854s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_crc.cpp:33[m[K:
+[117.859s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[117.861s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[117.865s]       |                [01;35m[K^[m[K
+[117.866s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_crc.h:36[m[K,
+[117.867s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_crc.cpp:33[m[K:
+[117.873s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[117.874s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[117.875s]       |                    [01;35m[K^[m[K
+[117.875s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_crc.cpp:[m[K In function ‘[01m[Ksl_u32 sl::crc32::cal(sl_u32, void*, sl_u16)[m[K’:
+[117.895s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_crc.cpp:77:29:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K-[m[K’ in operand of ‘[01m[K&[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[117.896s]    77 |         sl_u8 leftBytes = [01;35m[K4 - len[m[K & 0x3;
+[117.896s]       |                           [01;35m[K~~^~~~~[m[K
+[118.127s] [ 50%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidar_driver.cpp.o[0m
+[119.428s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sdkcommon.h:47[m[K,
+[119.432s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[119.435s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/hal/assert.h:1:1:[m[K [01;35m[Kwarning: [m[Knull character(s) ignored
+[119.438s]     1 | [01;35m[K [m[K                                                                                                                                                                                                                                                                                                                        
+[119.439s]       | [01;35m[K^[m[K
+[119.536s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:37[m[K:
+[119.540s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/hal/assert.h:1:1:[m[K [01;35m[Kwarning: [m[Knull character(s) ignored
+[119.542s]     1 | [01;35m[K [m[K                                                                                                                                                                                                                                                                                                                        
+[119.544s]       | [01;35m[K^[m[K
+[123.574s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[123.575s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[123.578s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[123.580s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[123.586s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[123.587s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[123.588s]       |                [01;35m[K^[m[K
+[123.595s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[123.597s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[123.598s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[123.599s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[123.599s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[123.600s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[123.602s]       |                    [01;35m[K^[m[K
+[125.813s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)[m[K’:
+[125.815s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:273:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[125.816s]   273 |         sl_result reset([01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[125.825s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[125.836s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getAllSupportedScanModes(std::vector<sl::LidarScanMode>&, sl_u32)[m[K’:
+[125.843s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:286:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[125.849s]   286 |         sl_result getAllSupportedScanModes(std::vector<LidarScanMode>& outModes, [01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[125.853s]       |                                                                                  [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[125.856s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)[m[K’:
+[125.859s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:347:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[125.860s]   347 |         sl_result startScan(bool force, bool useTypicalScan, [01;35m[Ksl_u32 options = 0[m[K, LidarScanMode* outUsedScanMode = nullptr)
+[125.862s]       |                                                              [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[125.884s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)[m[K’:
+[125.890s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:534:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[125.892s]   534 |         sl_result stop([01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[125.896s]       |                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[125.903s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getDeviceInfo(sl_lidar_response_device_info_t&, sl_u32)[m[K’:
+[125.907s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:579:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[125.916s]   579 |         sl_result getDeviceInfo(sl_lidar_response_device_info_t& info, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[125.923s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[125.924s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::checkMotorCtrlSupport(sl::MotorCtrlSupport&, sl_u32)[m[K’:
+[125.933s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:592:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[125.935s]   592 |         sl_result checkMotorCtrlSupport(MotorCtrlSupport & support, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[125.939s]       |                                                                     [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[125.943s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)[m[K’:
+[125.946s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:627:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[125.947s]   627 |         sl_result getFrequency(const LidarScanMode& scanMode, [01;35m[Kconst sl_lidar_response_measurement_node_hq_t* nodes[m[K, size_t count, float& frequency)
+[125.954s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[125.956s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getHealth(sl_lidar_response_device_health_t&, sl_u32)[m[K’:
+[125.962s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:640:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[125.966s]   640 |         sl_result getHealth(sl_lidar_response_device_health_t& health, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[125.969s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[125.970s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)[m[K’:
+[125.971s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:730:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[125.972s]   730 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, [01;35m[Ksl_u32 timeoutInMs[m[K)
+[125.975s]       |                                                           [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[126.016s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Ksl_result sl::SlamtecLidarDriver::_sendCommand(sl_u16, const void*, size_t)[m[K’:
+[126.026s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1089:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[126.027s]  1089 |             for (int pos = 0; [01;35m[Kpos < cmd_packet.size()[m[K; pos++) {
+[126.028s]       |                               [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[126.035s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1058:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpkt_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[126.036s]  1058 |             sl_u8 [01;35m[Kpkt_header[m[K[10];
+[126.058s]       |                   [01;35m[K^~~~~~~~~~[m[K
+[126.059s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvoid sl::SlamtecLidarDriver::_ultraCapsuleToNormal(const sl_lidar_response_ultra_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[126.070s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1370:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[126.083s]  1370 |                     if (([01;35m[Kdist_predict1 == 0xFFFFFE00[m[K) || (dist_predict1 == 0x1FF)) {
+[126.085s]       |                          [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[126.090s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1379:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[126.093s]  1379 |                     if (([01;35m[Kdist_predict2 == 0xFFFFFE00[m[K) || (dist_predict2 == 0x1FF)) {
+[126.096s]       |                          [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[126.099s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvoid sl::SlamtecLidarDriver::_dense_capsuleToNormal(const sl_lidar_response_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[126.102s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1577:38:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[126.105s]  1577 |                     const int dist = [01;35m[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)[m[K;
+[126.108s]       |                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[126.572s] /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In instantiation of ‘[01m[Ksl_result sl::ascendScanData_(TNode*, size_t) [with TNode = sl_lidar_response_measurement_node_hq_t; sl_result = unsigned int; size_t = long unsigned int][m[K’:
+[126.576s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:677:76:[m[K   required from here
+[126.578s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:178:31:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[126.580s]   178 |         for (i = count - 1; [01;35m[Ki >= 0[m[K; i--) {
+[126.582s]       |                             [01;35m[K~~^~~~[m[K
+[127.605s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K At global scope:
+[127.615s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:72:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[127.624s]    72 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)
+[127.626s]       |                 [01;35m[K^~~~~~~[m[K
+[127.633s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:59:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::printDeprecationWarn(const char*, const char*)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[127.636s]    59 |     static void [01;35m[KprintDeprecationWarn[m[K(const char* fn, const char* replacement)
+[127.637s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[129.864s] [ 57%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_serial_channel.cpp.o[0m
+[129.988s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
+[130.004s]    33 | #pragma [01;35m[Konce[m[K
+[130.011s]       |         [01;35m[K^~~~[m[K
+[132.993s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[132.994s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[132.996s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:34[m[K:
+[133.028s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[133.036s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[133.037s]       |                [01;35m[K^[m[K
+[133.038s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[133.040s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:34[m[K:
+[133.045s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[133.047s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[133.049s]       |                    [01;35m[K^[m[K
+[133.765s] [ 64%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_tcp_channel.cpp.o[0m
+[133.898s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
+[133.906s]    33 | #pragma [01;35m[Konce[m[K
+[133.910s]       |         [01;35m[K^~~~[m[K
+[137.256s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[137.259s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[137.264s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:34[m[K:
+[137.266s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[137.268s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[137.276s]       |                [01;35m[K^[m[K
+[137.282s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[137.284s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:34[m[K:
+[137.304s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[137.305s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[137.306s]       |                    [01;35m[K^[m[K
+[137.331s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::TcpChannel::setStatus(_u32)[m[K’:
+[137.333s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:95:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[137.339s]    95 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[137.341s]       |                        [01;35m[K~~~~~^~~~[m[K
+[138.494s] [ 71%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_udp_channel.cpp.o[0m
+[138.630s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
+[138.638s]    33 | #pragma [01;35m[Konce[m[K
+[138.640s]       |         [01;35m[K^~~~[m[K
+[141.916s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[141.924s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[141.926s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:34[m[K:
+[141.928s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[141.929s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[141.931s]       |                [01;35m[K^[m[K
+[141.933s] In file included from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[141.943s]                  from [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:34[m[K:
+[141.945s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[141.957s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[141.960s]       |                    [01;35m[K^[m[K
+[141.997s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::UdpChannel::setStatus(_u32)[m[K’:
+[141.999s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:103:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[142.001s]   103 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[142.008s]       |                        [01;35m[K~~~~~^~~~[m[K
+[142.884s] [ 78%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[150.718s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[150.720s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[150.729s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[150.731s]       |                                                                 [01;35m[K~~~~~~~~~^~~~~[m[K
+[150.738s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[150.750s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[150.760s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[150.775s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[150.786s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[150.787s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[150.788s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[150.789s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[150.795s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[150.796s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[150.810s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[150.811s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[152.119s] [ 85%] [32m[1mLinking CXX executable sllidar_node[0m
+[155.482s] [ 85%] Built target sllidar_node
+[155.645s] [35m[1mConsolidate compiler generated dependencies of target sllidar_client[0m
+[155.946s] [ 92%] [32mBuilding CXX object CMakeFiles/sllidar_client.dir/src/sllidar_client.cpp.o[0m
+[250.378s] [100%] [32m[1mLinking CXX executable sllidar_client[0m
+[255.224s] [100%] Built target sllidar_client
+[255.345s] Invoked command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2 -- -j4 -l4
+[256.170s] Invoking command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2
+[256.287s] -- Install configuration: ""
+[256.291s] -- Execute custom install script
+[256.298s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[256.310s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_launch.py
+[256.318s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[256.320s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[256.329s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[256.335s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[256.336s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[256.338s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[256.339s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_launch.py
+[256.341s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[256.349s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[256.357s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[256.364s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[256.366s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[256.367s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[256.369s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[256.382s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[256.383s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[256.387s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[256.388s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[256.389s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[256.391s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[256.397s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[256.404s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[256.421s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[256.422s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[256.423s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[256.424s] -- Symlinking: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[256.485s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[256.487s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[256.489s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[256.497s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[256.499s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[256.503s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[256.531s] Invoked command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2

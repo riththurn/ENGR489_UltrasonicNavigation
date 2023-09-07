@@ -1,0 +1,51 @@
+[0.644s] Invoking command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/nav2_gradient_costmap_ultrasonics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/nav2_gradient_costmap_ultrasonics -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/nav2_gradient_costmap_ultrasonics
+[5.443s] -- The C compiler identification is GNU 11.3.0
+[5.486s] -- The CXX compiler identification is GNU 11.3.0
+[5.506s] -- Detecting C compiler ABI info
+[5.975s] -- Detecting C compiler ABI info - done
+[6.197s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.205s] -- Detecting C compile features
+[6.228s] -- Detecting C compile features - done
+[6.278s] -- Detecting CXX compiler ABI info
+[8.228s] -- Detecting CXX compiler ABI info - done
+[8.434s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.436s] -- Detecting CXX compile features
+[8.451s] -- Detecting CXX compile features - done
+[8.609s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[13.414s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[15.844s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[16.710s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[16.826s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[16.989s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[17.208s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.488s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[18.326s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[18.360s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[19.399s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[20.150s] -- Found FastRTPS: /opt/ros/humble/include  
+[20.790s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[20.958s] -- Looking for pthread.h
+[22.007s] -- Looking for pthread.h - found
+[22.009s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[22.876s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[22.883s] -- Found Threads: TRUE  
+[25.092s] [31mCMake Error at CMakeLists.txt:26 (find_package):
+[25.093s]   By not providing "Findnav2_costmap_2d.cmake" in CMAKE_MODULE_PATH this
+[25.094s]   project has asked CMake to find a package configuration file provided by
+[25.102s]   "nav2_costmap_2d", but CMake did not find one.
+[25.109s] 
+[25.113s]   Could not find a package configuration file provided by "nav2_costmap_2d"
+[25.115s]   with any of the following names:
+[25.125s] 
+[25.129s]     nav2_costmap_2dConfig.cmake
+[25.137s]     nav2_costmap_2d-config.cmake
+[25.148s] 
+[25.152s]   Add the installation prefix of "nav2_costmap_2d" to CMAKE_PREFIX_PATH or
+[25.155s]   set "nav2_costmap_2d_DIR" to a directory containing one of the above files.
+[25.164s]   If "nav2_costmap_2d" provides a separate development package or SDK, be
+[25.174s]   sure it has been installed.
+[25.177s] 
+[25.178s] [0m
+[25.179s] -- Configuring incomplete, errors occurred!
+[25.182s] See also "/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/nav2_gradient_costmap_ultrasonics/CMakeFiles/CMakeOutput.log".
+[25.189s] Invoked command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/nav2_gradient_costmap_ultrasonics' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/nav2_gradient_costmap_ultrasonics -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/nav2_gradient_costmap_ultrasonics

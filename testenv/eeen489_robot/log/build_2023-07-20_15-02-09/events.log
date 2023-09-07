@@ -1,0 +1,15 @@
+[0.000000] (-) TimerEvent: {}
+[0.002642] (eeen489_robot) JobQueued: {'identifier': 'eeen489_robot', 'dependencies': OrderedDict()}
+[0.003622] (eeen489_robot) JobStarted: {'identifier': 'eeen489_robot'}
+[0.098279] (-) TimerEvent: {}
+[0.200049] (-) TimerEvent: {}
+[0.302848] (-) TimerEvent: {}
+[0.404694] (-) TimerEvent: {}
+[0.507895] (-) TimerEvent: {}
+[0.610617] (-) TimerEvent: {}
+[0.711975] (-) TimerEvent: {}
+[0.813818] (-) TimerEvent: {}
+[0.918377] (-) TimerEvent: {}
+[1.019859] (-) TimerEvent: {}
+[1.058222] (eeen489_robot) JobEnded: {'identifier': 'eeen489_robot', 'rc': 0}
+[1.069581] (-) EventReactorShutdown: {}

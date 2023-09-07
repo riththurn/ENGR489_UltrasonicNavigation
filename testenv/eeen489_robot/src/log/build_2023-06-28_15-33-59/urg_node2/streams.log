@@ -1,0 +1,90 @@
+[0.107s] Invoking command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2 -- -j4 -l4
+[0.694s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.486s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.624s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.917s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.933s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.974s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.037s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.124s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.422s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.434s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.518s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.205s] -- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)
+[4.480s] -- Found rclcpp_lifecycle: 16.0.4 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.780s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.349s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[5.624s] -- Found laser_proc: 1.0.2 (/opt/ros/humble/share/laser_proc/cmake)
+[5.704s] -- Found ament_cmake_gtest: 1.3.4 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[5.711s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.287s] -- Configuring done
+[6.642s] -- Generating done
+[6.663s] -- Build files have been written to: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2
+[6.903s] [35m[1mConsolidate compiler generated dependencies of target urg_node2_node[0m
+[6.926s] [35m[1mConsolidate compiler generated dependencies of target urg_c[0m
+[7.001s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[7.037s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[7.148s] [  5%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.o[0m
+[7.291s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[7.295s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[7.809s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/urg_node2/urg_library/current/src/urg_sensor.c:1349:8:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[7.811s]  1349 | static [01;35m[Kconst[m[K int receive_II_command_response(urg_t *urg,
+[7.812s]       |        [01;35m[K^~~~~[m[K
+[8.132s] [ 20%] [32mBuilding CXX object CMakeFiles/urg_node2_node.dir/rclcpp_components/node_main_urg_node2_node.cpp.o[0m
+[9.075s] [ 25%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.o[0m
+[9.261s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/urg_node2/urg_library/current/src/urg_utils.c:[m[K In function ‘[01m[Kurg_delay[m[K’:
+[9.262s] [01m[K/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/urg_node2/urg_library/current/src/urg_utils.c:224:5:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kusleep[m[K’; did you mean ‘[01m[Kurg_sleep[m[K’? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+[9.263s]   224 |     [01;35m[Kusleep[m[K(1000 * delay_msec);
+[9.265s]       |     [01;35m[K^~~~~~[m[K
+[9.266s]       |     [32m[Kurg_sleep[m[K
+[9.469s] [ 30%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.o[0m
+[9.718s] [ 35%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o[0m
+[10.073s] [ 40%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o[0m
+[10.379s] [ 45%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o[0m
+[10.787s] [ 50%] [32m[1mLinking C shared library liburg_c.so[0m
+[11.291s] [ 60%] Built target urg_c
+[11.390s] [35m[1mConsolidate compiler generated dependencies of target urg_node2[0m
+[11.784s] [ 65%] [32mBuilding CXX object CMakeFiles/urg_node2.dir/src/urg_node2.cpp.o[0m
+[12.720s] [ 70%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[13.089s] [ 70%] Built target gtest_main
+[27.625s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[28.275s] [ 75%] Built target gtest
+[28.393s] [35m[1mConsolidate compiler generated dependencies of target urg_node2_test[0m
+[28.702s] [ 80%] [32mBuilding CXX object CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o[0m
+[28.920s] [ 85%] [32mBuilding CXX object CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.o[0m
+[32.673s] [ 90%] [32m[1mLinking CXX executable urg_node2_node[0m
+[34.174s] [ 90%] Built target urg_node2_node
+[58.459s] [ 95%] [32m[1mLinking CXX shared library liburg_node2.so[0m
+[61.211s] [ 95%] Built target urg_node2
+[101.871s] [100%] [32m[1mLinking CXX executable urg_node2_test[0m
+[106.788s] [100%] Built target urg_node2_test
+[106.914s] Invoked command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2 -- -j4 -l4
+[107.321s] Invoking command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2
+[107.349s] -- Install configuration: ""
+[107.379s] -- Execute custom install script
+[107.383s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/lib/urg_node2/urg_node2_node
+[107.387s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/lib/liburg_node2.so
+[107.389s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/lib/liburg_c.so
+[107.391s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/launch/urg_node2.launch.py
+[107.392s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/launch/urg_node2_2lidar.launch.py
+[107.393s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/launch/urg_node2_component.launch.py
+[107.395s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/config/params_ether.yaml
+[107.396s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/config/params_ether_2nd.yaml
+[107.398s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/config/params_serial.yaml
+[107.400s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/ament_index/resource_index/package_run_dependencies/urg_node2
+[107.401s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/ament_index/resource_index/parent_prefix_path/urg_node2
+[107.403s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/environment/ament_prefix_path.sh
+[107.408s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/environment/ament_prefix_path.dsv
+[107.426s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/environment/path.sh
+[107.427s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/environment/path.dsv
+[107.427s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/local_setup.bash
+[107.428s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/local_setup.sh
+[107.429s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/local_setup.zsh
+[107.431s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/local_setup.dsv
+[107.432s] -- Symlinking: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/package.dsv
+[107.486s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/ament_index/resource_index/packages/urg_node2
+[107.489s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/ament_index/resource_index/rclcpp_components/urg_node2
+[107.491s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/cmake/urg_node2Config.cmake
+[107.495s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/cmake/urg_node2Config-version.cmake
+[107.496s] -- Up-to-date symlink: /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/share/urg_node2/package.xml
+[107.523s] Invoked command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/urg_node2

@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.002310] (eeen489_robot) JobQueued: {'identifier': 'eeen489_robot', 'dependencies': OrderedDict()}
+[0.003062] (eeen489_robot) JobStarted: {'identifier': 'eeen489_robot'}
+[0.077138] (-) TimerEvent: {}
+[0.180247] (-) TimerEvent: {}
+[0.299426] (-) TimerEvent: {}
+[0.400997] (-) TimerEvent: {}
+[0.502995] (-) TimerEvent: {}
+[0.604341] (-) TimerEvent: {}
+[0.705783] (-) TimerEvent: {}
+[0.810302] (-) TimerEvent: {}
+[0.911151] (-) TimerEvent: {}
+[1.014616] (-) TimerEvent: {}
+[1.125504] (-) TimerEvent: {}
+[1.226251] (-) TimerEvent: {}
+[1.327999] (-) TimerEvent: {}
+[1.436248] (-) TimerEvent: {}
+[1.540022] (-) TimerEvent: {}
+[1.641582] (-) TimerEvent: {}
+[1.742869] (-) TimerEvent: {}
+[1.844072] (-) TimerEvent: {}
+[1.945371] (-) TimerEvent: {}
+[2.046602] (-) TimerEvent: {}
+[2.150334] (-) TimerEvent: {}
+[2.251083] (-) TimerEvent: {}
+[2.355956] (-) TimerEvent: {}
+[2.458018] (-) TimerEvent: {}
+[2.561165] (-) TimerEvent: {}
+[2.666811] (-) TimerEvent: {}
+[2.775648] (-) TimerEvent: {}
+[2.880274] (-) TimerEvent: {}
+[2.983003] (-) TimerEvent: {}
+[3.084641] (-) TimerEvent: {}
+[3.191892] (-) TimerEvent: {}
+[3.296772] (-) TimerEvent: {}
+[3.400481] (-) TimerEvent: {}
+[3.501321] (-) TimerEvent: {}
+[3.603529] (-) TimerEvent: {}
+[3.708106] (-) TimerEvent: {}
+[3.817111] (-) TimerEvent: {}
+[3.918074] (-) TimerEvent: {}
+[4.019973] (-) TimerEvent: {}
+[4.121811] (-) TimerEvent: {}
+[4.226151] (-) TimerEvent: {}
+[4.328681] (-) TimerEvent: {}
+[4.430392] (-) TimerEvent: {}
+[4.536213] (-) TimerEvent: {}
+[4.638327] (-) TimerEvent: {}
+[4.739676] (-) TimerEvent: {}
+[4.841915] (-) TimerEvent: {}
+[4.944551] (-) TimerEvent: {}
+[5.051512] (-) TimerEvent: {}
+[5.158967] (-) TimerEvent: {}
+[5.267080] (-) TimerEvent: {}
+[5.369273] (-) TimerEvent: {}
+[5.472876] (-) TimerEvent: {}
+[5.574699] (-) TimerEvent: {}
+[5.676755] (-) TimerEvent: {}
+[5.778869] (-) TimerEvent: {}
+[5.882298] (-) TimerEvent: {}
+[5.960581] (eeen489_robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/eeen489_robot', 'build', '--build-base', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/build', 'install', '--record', '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_NZ:en', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1193', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/texlive/2022/bin/aarch64-linux:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/EEEN325-Robot-Test:@/tmp/.ICE-unix/1163,unix/EEEN325-Robot-Test:/tmp/.ICE-unix/1163', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/adb3ebcf_a0c3_40eb_bad9_5336c10bbfcd', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_NZ.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DCU561', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.128', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/prefix_override:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/urg_node2:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/sllidar_ros2'}, 'shell': False}
+[5.985803] (-) TimerEvent: {}
+[6.088501] (-) TimerEvent: {}
+[6.190032] (-) TimerEvent: {}
+[6.290929] (-) TimerEvent: {}
+[6.392475] (-) TimerEvent: {}
+[6.493911] (-) TimerEvent: {}
+[6.595591] (-) TimerEvent: {}
+[6.697108] (-) TimerEvent: {}
+[6.798892] (-) TimerEvent: {}
+[6.900131] (-) TimerEvent: {}
+[7.001551] (-) TimerEvent: {}
+[7.102917] (-) TimerEvent: {}
+[7.204309] (-) TimerEvent: {}
+[7.306806] (-) TimerEvent: {}
+[7.409091] (-) TimerEvent: {}
+[7.510864] (-) TimerEvent: {}
+[7.612538] (-) TimerEvent: {}
+[7.714322] (-) TimerEvent: {}
+[7.816244] (-) TimerEvent: {}
+[7.919189] (-) TimerEvent: {}
+[8.021961] (-) TimerEvent: {}
+[8.124363] (-) TimerEvent: {}
+[8.225998] (-) TimerEvent: {}
+[8.327266] (-) TimerEvent: {}
+[8.403312] (eeen489_robot) StdoutLine: {'line': b'running egg_info\n'}
+[8.408039] (eeen489_robot) StdoutLine: {'line': b'writing build/eeen489_robot/eeen489_robot.egg-info/PKG-INFO\n'}
+[8.412277] (eeen489_robot) StdoutLine: {'line': b'writing dependency_links to build/eeen489_robot/eeen489_robot.egg-info/dependency_links.txt\n'}
+[8.415134] (eeen489_robot) StdoutLine: {'line': b'writing entry points to build/eeen489_robot/eeen489_robot.egg-info/entry_points.txt\n'}
+[8.422628] (eeen489_robot) StdoutLine: {'line': b'writing requirements to build/eeen489_robot/eeen489_robot.egg-info/requires.txt\n'}
+[8.427451] (-) TimerEvent: {}
+[8.448433] (eeen489_robot) StdoutLine: {'line': b'writing top-level names to build/eeen489_robot/eeen489_robot.egg-info/top_level.txt\n'}
+[8.521805] (eeen489_robot) StdoutLine: {'line': b"reading manifest file 'build/eeen489_robot/eeen489_robot.egg-info/SOURCES.txt'\n"}
+[8.522726] (eeen489_robot) StdoutLine: {'line': b"writing manifest file 'build/eeen489_robot/eeen489_robot.egg-info/SOURCES.txt'\n"}
+[8.523391] (eeen489_robot) StdoutLine: {'line': b'running build\n'}
+[8.524099] (eeen489_robot) StdoutLine: {'line': b'running build_py\n'}
+[8.524759] (eeen489_robot) StdoutLine: {'line': b'running install\n'}
+[8.541695] (-) TimerEvent: {}
+[8.543085] (eeen489_robot) StdoutLine: {'line': b'running install_lib\n'}
+[8.572902] (eeen489_robot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.573734] (eeen489_robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.574271] (eeen489_robot) StdoutLine: {'line': b'running install_data\n'}
+[8.574858] (eeen489_robot) StdoutLine: {'line': b'copying launch/EEEN325_Robot_Platform.launch.py -> /home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/share/eeen489_robot\n'}
+[8.592033] (eeen489_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.605882] (eeen489_robot) StdoutLine: {'line': b"removing '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages/eeen489_robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.636324] (eeen489_robot) StdoutLine: {'line': b'Copying build/eeen489_robot/eeen489_robot.egg-info to /home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages/eeen489_robot-0.0.0-py3.10.egg-info\n'}
+[8.637067] (-) TimerEvent: {}
+[8.645721] (eeen489_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[8.737282] (-) TimerEvent: {}
+[8.849111] (-) TimerEvent: {}
+[8.927650] (eeen489_robot) StdoutLine: {'line': b'Installing high_level_ros_interface_node script to /home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/eeen489_robot\n'}
+[8.940521] (eeen489_robot) StdoutLine: {'line': b'Installing low_level_ros_interface_node script to /home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/eeen489_robot\n'}
+[8.941264] (eeen489_robot) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/install.log'\n"}
+[8.959802] (-) TimerEvent: {}
+[9.083706] (-) TimerEvent: {}
+[9.172252] (eeen489_robot) CommandEnded: {'returncode': 0}
+[9.185123] (-) TimerEvent: {}
+[9.287133] (-) TimerEvent: {}
+[9.336804] (eeen489_robot) JobEnded: {'identifier': 'eeen489_robot', 'rc': 0}
+[9.353258] (-) EventReactorShutdown: {}

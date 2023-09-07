@@ -1,0 +1,4 @@
+[console_scripts]
+ultrasonic_listener = ultrasonics.ultrasonic_node_ALL_listener:main
+ultrasonic_publisher = ultrasonics.ultrasonic_node_publisher:main
+

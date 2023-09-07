@@ -1,0 +1,73 @@
+#######################################
+# Syntax Coloring Map For DFRobot_URM13
+#######################################
+
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DFRobot_URM13	KEYWORD1
+DFRobot_URM13_RTU	KEYWORD1
+DFRobot_URM13_I2C	KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+refreshBasicInfo	KEYWORD2
+setADDR	KEYWORD2
+getDistanceCm	KEYWORD2
+getInternalTempretureC	KEYWORD2
+setExternalTempretureC	KEYWORD2
+setMeasureMode	KEYWORD2
+passiveMeasurementTRIG	KEYWORD2
+getNoiseLevel	KEYWORD2
+setMeasureSensitivity	KEYWORD2
+setBaudrateMode	KEYWORD2
+setCheckbitStopbit	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+NO_ERR	LITERAL1
+ERR_DATA_BUS	LITERAL1
+ERR_IC_VERSION	LITERAL1
+eInternalTemp	LITERAL1
+eExternalTemp	LITERAL1
+eTempCompModeEn	LITERAL1
+eTempCompModeDis	LITERAL1
+eAutoMeasureModeEn	LITERAL1
+eAutoMeasureModeDis	LITERAL1
+eMeasureRangeModeLong	LITERAL1
+eMeasureRangeModeShort	LITERAL1
+eRtuInterface	LITERAL1
+eI2cInterface	LITERAL1
+eTrigInterface	LITERAL1
+eBaudrate2400	LITERAL1
+eBaudrate4800	LITERAL1
+eBaudrate9600	LITERAL1
+eBaudrate14400	LITERAL1
+eBaudrate19200	LITERAL1
+eBaudrate38400	LITERAL1
+eBaudrate57600	LITERAL1
+eBaudrate115200	LITERAL1
+eCheckBitNone	LITERAL1
+eCheckBitEven	LITERAL1
+eCheckBitOdd	LITERAL1
+eStopBit0P5	LITERAL1
+eStopBit1	LITERAL1
+eStopBit1P5	LITERAL1
+eStopBit2	LITERAL1
+basicInfoI2C	LITERAL1
+basicInfoRTU	LITERAL1
+PID	LITERAL1
+VID	LITERAL1
+addr	LITERAL1
+baudrate	LITERAL1
+checkbit	LITERAL1
+stopbit	LITERAL1

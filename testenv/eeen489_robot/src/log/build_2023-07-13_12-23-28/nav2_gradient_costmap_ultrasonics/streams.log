@@ -1,0 +1,31 @@
+[0.368s] Invoking command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/nav2_gradient_costmap_ultrasonics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/nav2_gradient_costmap_ultrasonics -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/nav2_gradient_costmap_ultrasonics
+[3.539s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.540s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[5.238s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.388s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.682s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.900s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.324s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.353s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.706s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.129s] [31mCMake Error at CMakeLists.txt:26 (find_package):
+[11.158s]   By not providing "Findnav2_costmap_2d.cmake" in CMAKE_MODULE_PATH this
+[11.161s]   project has asked CMake to find a package configuration file provided by
+[11.168s]   "nav2_costmap_2d", but CMake did not find one.
+[11.171s] 
+[11.184s]   Could not find a package configuration file provided by "nav2_costmap_2d"
+[11.187s]   with any of the following names:
+[11.190s] 
+[11.192s]     nav2_costmap_2dConfig.cmake
+[11.194s]     nav2_costmap_2d-config.cmake
+[11.217s] 
+[11.233s]   Add the installation prefix of "nav2_costmap_2d" to CMAKE_PREFIX_PATH or
+[11.235s]   set "nav2_costmap_2d_DIR" to a directory containing one of the above files.
+[11.237s]   If "nav2_costmap_2d" provides a separate development package or SDK, be
+[11.240s]   sure it has been installed.
+[11.241s] 
+[11.269s] [0m
+[11.271s] -- Configuring incomplete, errors occurred!
+[11.273s] See also "/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/nav2_gradient_costmap_ultrasonics/CMakeFiles/CMakeOutput.log".
+[11.282s] Invoked command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/nav2_gradient_costmap_ultrasonics' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/nav2_gradient_costmap_ultrasonics -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/install/nav2_gradient_costmap_ultrasonics

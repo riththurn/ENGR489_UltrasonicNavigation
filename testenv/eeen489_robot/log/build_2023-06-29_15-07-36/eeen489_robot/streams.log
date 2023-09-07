@@ -1,0 +1,23 @@
+[79.111s] Invoking command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot': PYTHONPATH=/home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/prefix_override:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/eeen489_robot build --build-base /home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/build install --record /home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/install.log --single-version-externally-managed
+[108.363s] Traceback (most recent call last):
+[108.377s]   File "/home/ubuntu/Documents/engr489/testenv/eeen489_robot/setup.py", line 1, in <module>
+[108.440s]     from setuptools import setup
+[108.443s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 242, in <module>
+[108.457s]     monkey.patch_all()
+[108.476s]   File "/usr/lib/python3/dist-packages/setuptools/monkey.py", line 99, in patch_all
+[108.503s]     patch_for_msvc_specialized_compiler()
+[108.580s]   File "/usr/lib/python3/dist-packages/setuptools/monkey.py", line 136, in patch_for_msvc_specialized_compiler
+[108.724s]     msvc = import_module('setuptools.msvc')
+[108.771s]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[108.808s]     return _bootstrap._gcd_import(name[level:], package, level)
+[108.845s]   File "/usr/lib/python3/dist-packages/setuptools/msvc.py", line 22, in <module>
+[108.886s]     import json
+[109.174s]   File "/usr/lib/python3.10/json/__init__.py", line 106, in <module>
+[109.320s]     from .decoder import JSONDecoder, JSONDecodeError
+[109.403s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[109.455s]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[109.505s]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[109.576s]   File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+[109.683s]   File "<frozen importlib._bootstrap_external>", line 950, in get_code
+[109.767s] KeyboardInterrupt
+[109.956s] Invoked command in '/home/ubuntu/Documents/engr489/testenv/eeen489_robot' returned '-2': PYTHONPATH=/home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/prefix_override:/home/ubuntu/Documents/engr489/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/eeen489_robot build --build-base /home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/build install --record /home/ubuntu/Documents/engr489/testenv/eeen489_robot/build/eeen489_robot/install.log --single-version-externally-managed
