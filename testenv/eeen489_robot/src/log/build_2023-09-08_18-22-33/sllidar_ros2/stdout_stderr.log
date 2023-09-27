@@ -1,0 +1,4 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/sllidar_ros2/CMakeCache.txt is different than the directory /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/build/sllidar_ros2 where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Error: The source directory "/home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:578: cmake_check_build_system] Error 1

@@ -1,0 +1,987 @@
+[0.000000] (-) TimerEvent: {}
+[0.001608] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.001741] (ultrasonics) JobQueued: {'identifier': 'ultrasonics', 'dependencies': OrderedDict()}
+[0.002253] (urg_node2) JobQueued: {'identifier': 'urg_node2', 'dependencies': OrderedDict()}
+[0.002349] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.052160] (ultrasonics) JobStarted: {'identifier': 'ultrasonics'}
+[0.100880] (-) TimerEvent: {}
+[0.111478] (urg_node2) JobStarted: {'identifier': 'urg_node2'}
+[0.165670] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.167545] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2'], 'cwd': '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NZ:en'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/urg_node2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1182'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/texlive/2022/bin/aarch64-linux:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/EEEN325-Robot-Test:@/tmp/.ICE-unix/1148,unix/EEEN325-Robot-Test:/tmp/.ICE-unix/1148'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/81afdb0a_698b_4bbd_bb43_54d8455bde23'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_NZ.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YULYA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/sllidar_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/urg_node2:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble')]), 'shell': False}
+[0.201137] (-) TimerEvent: {}
+[0.301955] (-) TimerEvent: {}
+[0.402758] (-) TimerEvent: {}
+[0.503593] (-) TimerEvent: {}
+[0.604520] (-) TimerEvent: {}
+[0.705621] (-) TimerEvent: {}
+[0.806765] (-) TimerEvent: {}
+[0.907675] (-) TimerEvent: {}
+[1.008822] (-) TimerEvent: {}
+[1.109634] (-) TimerEvent: {}
+[1.210549] (-) TimerEvent: {}
+[1.311456] (-) TimerEvent: {}
+[1.412237] (-) TimerEvent: {}
+[1.513058] (-) TimerEvent: {}
+[1.614425] (-) TimerEvent: {}
+[1.716189] (-) TimerEvent: {}
+[1.740329] (sllidar_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.741255] (sllidar_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.746410] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'cmake'}
+[1.748143] (urg_node2) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/urg_node2/urg_node2', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/urg_node2'], 'cwd': '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NZ:en'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/urg_node2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1182'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/texlive/2022/bin/aarch64-linux:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/EEEN325-Robot-Test:@/tmp/.ICE-unix/1148,unix/EEEN325-Robot-Test:/tmp/.ICE-unix/1148'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/81afdb0a_698b_4bbd_bb43_54d8455bde23'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_NZ.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YULYA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/urg_node2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/urg_node2:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble')]), 'shell': False}
+[1.758900] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.817127] (-) TimerEvent: {}
+[1.918063] (-) TimerEvent: {}
+[2.019799] (-) TimerEvent: {}
+[2.118396] (urg_node2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[2.119893] (-) TimerEvent: {}
+[2.220829] (-) TimerEvent: {}
+[2.246037] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.278522] (sllidar_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.282999] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.287798] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.308429] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.321067] (-) TimerEvent: {}
+[2.422822] (-) TimerEvent: {}
+[2.465994] (urg_node2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[2.508761] (urg_node2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.523049] (-) TimerEvent: {}
+[2.624205] (-) TimerEvent: {}
+[2.725562] (-) TimerEvent: {}
+[2.826728] (-) TimerEvent: {}
+[2.827912] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.857980] (sllidar_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.860273] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.862987] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.914675] (sllidar_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.926923] (-) TimerEvent: {}
+[2.986875] (urg_node2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.023767] (urg_node2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.024752] (urg_node2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.026499] (urg_node2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.027363] (-) TimerEvent: {}
+[3.040959] (urg_node2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.127670] (-) TimerEvent: {}
+[3.229194] (-) TimerEvent: {}
+[3.330769] (-) TimerEvent: {}
+[3.431795] (-) TimerEvent: {}
+[3.532694] (-) TimerEvent: {}
+[3.572886] (urg_node2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.607967] (urg_node2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.610510] (urg_node2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.613815] (urg_node2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.632924] (-) TimerEvent: {}
+[3.648509] (urg_node2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.733558] (-) TimerEvent: {}
+[3.835951] (-) TimerEvent: {}
+[3.937115] (-) TimerEvent: {}
+[4.038358] (-) TimerEvent: {}
+[4.140392] (-) TimerEvent: {}
+[4.241773] (-) TimerEvent: {}
+[4.298064] (ultrasonics) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/ultrasonics', 'build', '--build-base', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/ultrasonics/build', 'install', '--record', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/ultrasonics/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/ultrasonics', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_NZ:en', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/urg_node2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1182', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/texlive/2022/bin/aarch64-linux:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/EEEN325-Robot-Test:@/tmp/.ICE-unix/1148,unix/EEEN325-Robot-Test:/tmp/.ICE-unix/1148', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/81afdb0a_698b_4bbd_bb43_54d8455bde23', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_NZ.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YULYA2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/ultrasonics', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/ultrasonics/prefix_override:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/urg_node2:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2'}, 'shell': False}
+[4.342138] (-) TimerEvent: {}
+[4.353960] (sllidar_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[4.442428] (-) TimerEvent: {}
+[4.543401] (-) TimerEvent: {}
+[4.644508] (-) TimerEvent: {}
+[4.745871] (-) TimerEvent: {}
+[4.847460] (-) TimerEvent: {}
+[4.948831] (-) TimerEvent: {}
+[5.036126] (urg_node2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[5.049068] (-) TimerEvent: {}
+[5.149934] (-) TimerEvent: {}
+[5.251013] (-) TimerEvent: {}
+[5.351980] (-) TimerEvent: {}
+[5.387165] (sllidar_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.452148] (-) TimerEvent: {}
+[5.552875] (-) TimerEvent: {}
+[5.653591] (-) TimerEvent: {}
+[5.754452] (-) TimerEvent: {}
+[5.769413] (urg_node2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.854653] (-) TimerEvent: {}
+[5.940994] (ultrasonics) StdoutLine: {'line': b'running egg_info\n'}
+[5.944083] (ultrasonics) StdoutLine: {'line': b'writing ../build/ultrasonics/ultrasonics.egg-info/PKG-INFO\n'}
+[5.945375] (ultrasonics) StdoutLine: {'line': b'writing dependency_links to ../build/ultrasonics/ultrasonics.egg-info/dependency_links.txt\n'}
+[5.946416] (ultrasonics) StdoutLine: {'line': b'writing entry points to ../build/ultrasonics/ultrasonics.egg-info/entry_points.txt\n'}
+[5.947459] (ultrasonics) StdoutLine: {'line': b'writing requirements to ../build/ultrasonics/ultrasonics.egg-info/requires.txt\n'}
+[5.948473] (ultrasonics) StdoutLine: {'line': b'writing top-level names to ../build/ultrasonics/ultrasonics.egg-info/top_level.txt\n'}
+[5.954846] (-) TimerEvent: {}
+[5.958378] (ultrasonics) StdoutLine: {'line': b"reading manifest file '../build/ultrasonics/ultrasonics.egg-info/SOURCES.txt'\n"}
+[5.964072] (ultrasonics) StdoutLine: {'line': b"writing manifest file '../build/ultrasonics/ultrasonics.egg-info/SOURCES.txt'\n"}
+[5.965339] (ultrasonics) StdoutLine: {'line': b'running build\n'}
+[5.968669] (ultrasonics) StdoutLine: {'line': b'running build_py\n'}
+[5.969536] (ultrasonics) StdoutLine: {'line': b'running install\n'}
+[5.969976] (ultrasonics) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.970863] (ultrasonics) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.971285] (ultrasonics) StdoutLine: {'line': b'running install_lib\n'}
+[5.977082] (ultrasonics) StdoutLine: {'line': b'running install_data\n'}
+[5.979958] (ultrasonics) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.997953] (ultrasonics) StdoutLine: {'line': b"removing '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages/ultrasonics-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.998683] (ultrasonics) StdoutLine: {'line': b'Copying ../build/ultrasonics/ultrasonics.egg-info to /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages/ultrasonics-0.0.0-py3.10.egg-info\n'}
+[5.999251] (ultrasonics) StdoutLine: {'line': b'running install_scripts\n'}
+[6.033687] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.055038] (-) TimerEvent: {}
+[6.094733] (ultrasonics) StdoutLine: {'line': b'Installing ultrasonic_listener script to /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics/lib/ultrasonics\n'}
+[6.103745] (ultrasonics) StdoutLine: {'line': b'Installing ultrasonic_publisher script to /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics/lib/ultrasonics\n'}
+[6.105254] (ultrasonics) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/ultrasonics/install.log'\n"}
+[6.106528] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.155587] (-) TimerEvent: {}
+[6.242457] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.255858] (-) TimerEvent: {}
+[6.273034] (ultrasonics) CommandEnded: {'returncode': 0}
+[6.322472] (urg_node2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.356273] (ultrasonics) JobEnded: {'identifier': 'ultrasonics', 'rc': 0}
+[6.358466] (-) TimerEvent: {}
+[6.377284] (urg_node2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.380809] (sllidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.444029] (urg_node2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.458669] (-) TimerEvent: {}
+[6.536020] (urg_node2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.551677] (sllidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.558827] (-) TimerEvent: {}
+[6.659596] (-) TimerEvent: {}
+[6.670133] (urg_node2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.759807] (-) TimerEvent: {}
+[6.860611] (-) TimerEvent: {}
+[6.961460] (-) TimerEvent: {}
+[7.037991] (sllidar_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.061678] (-) TimerEvent: {}
+[7.070643] (sllidar_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.082028] (urg_node2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.108045] (urg_node2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.161902] (-) TimerEvent: {}
+[7.262714] (-) TimerEvent: {}
+[7.363456] (-) TimerEvent: {}
+[7.464306] (-) TimerEvent: {}
+[7.565116] (-) TimerEvent: {}
+[7.666195] (-) TimerEvent: {}
+[7.767337] (-) TimerEvent: {}
+[7.847303] (urg_node2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.848170] (sllidar_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.867504] (-) TimerEvent: {}
+[7.968234] (-) TimerEvent: {}
+[8.069011] (-) TimerEvent: {}
+[8.128259] (sllidar_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.128841] (urg_node2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.169195] (-) TimerEvent: {}
+[8.270009] (-) TimerEvent: {}
+[8.370759] (-) TimerEvent: {}
+[8.471504] (-) TimerEvent: {}
+[8.572300] (-) TimerEvent: {}
+[8.583253] (urg_node2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.586741] (sllidar_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.672501] (-) TimerEvent: {}
+[8.701591] (sllidar_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.702407] (urg_node2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.772712] (-) TimerEvent: {}
+[8.873569] (-) TimerEvent: {}
+[8.974554] (-) TimerEvent: {}
+[9.075729] (-) TimerEvent: {}
+[9.148573] (sllidar_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.149189] (urg_node2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.150842] (sllidar_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.151638] (urg_node2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.175880] (-) TimerEvent: {}
+[9.277015] (-) TimerEvent: {}
+[9.378138] (-) TimerEvent: {}
+[9.479063] (-) TimerEvent: {}
+[9.580107] (-) TimerEvent: {}
+[9.641573] (urg_node2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.666495] (urg_node2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.669583] (sllidar_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.674541] (sllidar_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.680256] (-) TimerEvent: {}
+[9.781046] (-) TimerEvent: {}
+[9.882117] (-) TimerEvent: {}
+[9.983055] (-) TimerEvent: {}
+[10.083839] (-) TimerEvent: {}
+[10.184668] (-) TimerEvent: {}
+[10.285511] (-) TimerEvent: {}
+[10.386422] (-) TimerEvent: {}
+[10.487316] (-) TimerEvent: {}
+[10.536401] (urg_node2) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.3 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[10.537546] (sllidar_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[10.587585] (-) TimerEvent: {}
+[10.688368] (-) TimerEvent: {}
+[10.789118] (-) TimerEvent: {}
+[10.889909] (-) TimerEvent: {}
+[10.983302] (urg_node2) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.3 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[10.990075] (-) TimerEvent: {}
+[11.090971] (-) TimerEvent: {}
+[11.135927] (sllidar_ros2) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[11.191173] (-) TimerEvent: {}
+[11.247076] (urg_node2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[11.291376] (-) TimerEvent: {}
+[11.392561] (-) TimerEvent: {}
+[11.493448] (-) TimerEvent: {}
+[11.594382] (-) TimerEvent: {}
+[11.664433] (sllidar_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.694621] (-) TimerEvent: {}
+[11.768725] (sllidar_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[11.777865] (sllidar_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/sllidar_ros2\n'}
+[11.794877] (-) TimerEvent: {}
+[11.818353] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[11.820657] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[11.823447] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NZ:en'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/urg_node2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1182'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/texlive/2022/bin/aarch64-linux:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/EEEN325-Robot-Test:@/tmp/.ICE-unix/1148,unix/EEEN325-Robot-Test:/tmp/.ICE-unix/1148'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/81afdb0a_698b_4bbd_bb43_54d8455bde23'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_NZ.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YULYA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/sllidar_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/urg_node2:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble')]), 'shell': False}
+[11.856831] (urg_node2) StdoutLine: {'line': b'-- Found diagnostic_updater: 3.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)\n'}
+[11.895080] (-) TimerEvent: {}
+[11.995934] (-) TimerEvent: {}
+[12.087721] (sllidar_ros2) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_client.dir/src/sllidar_client.cpp.o\x1b[0m\n'}
+[12.093844] (sllidar_ros2) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o\x1b[0m\n'}
+[12.096178] (-) TimerEvent: {}
+[12.097542] (sllidar_ros2) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o\x1b[0m\n'}
+[12.102158] (sllidar_ros2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o\x1b[0m\n'}
+[12.196391] (-) TimerEvent: {}
+[12.297802] (-) TimerEvent: {}
+[12.323430] (urg_node2) StdoutLine: {'line': b'-- Found laser_proc: 1.0.2 (/opt/ros/humble/share/laser_proc/cmake)\n'}
+[12.398002] (-) TimerEvent: {}
+[12.499328] (-) TimerEvent: {}
+[12.600557] (-) TimerEvent: {}
+[12.640872] (urg_node2) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[12.700770] (-) TimerEvent: {}
+[12.708778] (urg_node2) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[12.801052] (-) TimerEvent: {}
+[12.902227] (-) TimerEvent: {}
+[13.003605] (-) TimerEvent: {}
+[13.105020] (-) TimerEvent: {}
+[13.206378] (-) TimerEvent: {}
+[13.307801] (-) TimerEvent: {}
+[13.409352] (-) TimerEvent: {}
+[13.459518] (urg_node2) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.501723] (urg_node2) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:34 (add_library):\n'}
+[13.502459] (urg_node2) StderrLine: {'line': b'  Cannot find source file:\n'}
+[13.503230] (urg_node2) StderrLine: {'line': b'\n'}
+[13.503653] (urg_node2) StderrLine: {'line': b'    urg_library/current/src/urg_sensor.c\n'}
+[13.503980] (urg_node2) StderrLine: {'line': b'\n'}
+[13.504296] (urg_node2) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[13.504620] (urg_node2) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[13.504984] (urg_node2) StderrLine: {'line': b'\n'}
+[13.505420] (urg_node2) StderrLine: {'line': b'\x1b[0m\n'}
+[13.509496] (-) TimerEvent: {}
+[13.515630] (urg_node2) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:34 (add_library):\n'}
+[13.516383] (urg_node2) StderrLine: {'line': b'  No SOURCES given to target: urg_c\n'}
+[13.516976] (urg_node2) StderrLine: {'line': b'\n'}
+[13.517549] (urg_node2) StderrLine: {'line': b'\x1b[0m\n'}
+[13.518036] (urg_node2) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[13.590754] (urg_node2) CommandEnded: {'returncode': 1}
+[13.609738] (-) TimerEvent: {}
+[13.712388] (-) TimerEvent: {}
+[13.813771] (-) TimerEvent: {}
+[13.829164] (urg_node2) JobEnded: {'identifier': 'urg_node2', 'rc': 1}
+[13.914057] (-) TimerEvent: {}
+[14.015023] (-) TimerEvent: {}
+[14.116087] (-) TimerEvent: {}
+[14.217048] (-) TimerEvent: {}
+[14.318077] (-) TimerEvent: {}
+[14.419074] (-) TimerEvent: {}
+[14.520073] (-) TimerEvent: {}
+[14.621135] (-) TimerEvent: {}
+[14.722184] (-) TimerEvent: {}
+[14.823361] (-) TimerEvent: {}
+[14.924578] (-) TimerEvent: {}
+[15.025755] (-) TimerEvent: {}
+[15.126893] (-) TimerEvent: {}
+[15.228097] (-) TimerEvent: {}
+[15.329510] (-) TimerEvent: {}
+[15.430698] (-) TimerEvent: {}
+[15.531989] (-) TimerEvent: {}
+[15.560113] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[15.561517] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[15.562336] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[15.564156] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[15.565154] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.566275] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[15.567790] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.568572] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[15.569279] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[15.569960] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[15.570994] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[15.571951] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:312:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.572832] (sllidar_ros2) StderrLine: {'line': b'  312 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[15.574074] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.632328] (-) TimerEvent: {}
+[15.733611] (-) TimerEvent: {}
+[15.834799] (-) TimerEvent: {}
+[15.936008] (-) TimerEvent: {}
+[16.037165] (-) TimerEvent: {}
+[16.138702] (-) TimerEvent: {}
+[16.239865] (-) TimerEvent: {}
+[16.341071] (-) TimerEvent: {}
+[16.442449] (-) TimerEvent: {}
+[16.449787] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.450734] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.451550] (sllidar_ros2) StderrLine: {'line': b'   97 | bool raw_serial::open(const char * portname, uint32_t baudrate, \x1b[01;35m\x1b[Kuint32_t flags\x1b[m\x1b[K)\n'}
+[16.452665] (sllidar_ros2) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[16.454533] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::arch::net::raw_serial::flush(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.455582] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.456532] (sllidar_ros2) StderrLine: {'line': b'  281 | void raw_serial::flush( \x1b[01;35m\x1b[K_u32 flags\x1b[m\x1b[K)\n'}
+[16.457278] (sllidar_ros2) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~^~~~~\x1b[m\x1b[K\n'}
+[16.458280] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.459590] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.460445] (sllidar_ros2) StderrLine: {'line': b'  286 | int raw_serial::waitforsent(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[16.461201] (sllidar_ros2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[16.461939] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.462681] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.463519] (sllidar_ros2) StderrLine: {'line': b'  292 | int raw_serial::waitforrecv(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[16.464485] (sllidar_ros2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[16.542759] (-) TimerEvent: {}
+[16.643989] (-) TimerEvent: {}
+[16.745507] (-) TimerEvent: {}
+[16.846827] (-) TimerEvent: {}
+[16.948019] (-) TimerEvent: {}
+[17.049822] (-) TimerEvent: {}
+[17.151010] (-) TimerEvent: {}
+[17.191167] (sllidar_ros2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/timer.cpp.o\x1b[0m\n'}
+[17.251289] (-) TimerEvent: {}
+[17.352592] (-) TimerEvent: {}
+[17.397388] (sllidar_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/hal/thread.cpp.o\x1b[0m\n'}
+[17.452848] (-) TimerEvent: {}
+[17.554019] (-) TimerEvent: {}
+[17.655013] (-) TimerEvent: {}
+[17.756444] (-) TimerEvent: {}
+[17.857535] (-) TimerEvent: {}
+[17.958878] (-) TimerEvent: {}
+[18.060010] (-) TimerEvent: {}
+[18.161244] (-) TimerEvent: {}
+[18.262397] (-) TimerEvent: {}
+[18.363393] (-) TimerEvent: {}
+[18.464485] (-) TimerEvent: {}
+[18.565622] (-) TimerEvent: {}
+[18.667029] (-) TimerEvent: {}
+[18.768922] (-) TimerEvent: {}
+[18.870513] (-) TimerEvent: {}
+[18.972202] (-) TimerEvent: {}
+[19.074074] (-) TimerEvent: {}
+[19.175877] (-) TimerEvent: {}
+[19.278215] (-) TimerEvent: {}
+[19.380998] (-) TimerEvent: {}
+[19.483137] (-) TimerEvent: {}
+[19.585976] (-) TimerEvent: {}
+[19.687185] (-) TimerEvent: {}
+[19.788535] (-) TimerEvent: {}
+[19.889884] (-) TimerEvent: {}
+[19.991131] (-) TimerEvent: {}
+[20.092619] (-) TimerEvent: {}
+[20.193848] (-) TimerEvent: {}
+[20.295175] (-) TimerEvent: {}
+[20.396549] (-) TimerEvent: {}
+[20.497749] (-) TimerEvent: {}
+[20.598887] (-) TimerEvent: {}
+[20.700216] (-) TimerEvent: {}
+[20.801439] (-) TimerEvent: {}
+[20.875174] (sllidar_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/rplidar_driver.cpp.o\x1b[0m\n'}
+[20.901802] (-) TimerEvent: {}
+[20.927747] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[20.929319] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[20.930114] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[20.931030] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[20.932659] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.933882] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[20.934791] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[20.935708] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[20.936666] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[20.937780] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[20.938543] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[20.944176] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:312:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.945275] (sllidar_ros2) StderrLine: {'line': b'  312 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[20.946303] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[21.002070] (-) TimerEvent: {}
+[21.103029] (-) TimerEvent: {}
+[21.204135] (-) TimerEvent: {}
+[21.230255] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/hal/thread.cpp:43\x1b[m\x1b[K:\n'}
+[21.231588] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.232319] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:48:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcast between incompatible function types from \xe2\x80\x98\x1b[01m\x1b[Kthread_proc_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int (*)(void*)\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kvoid* (*)(void*)\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type\x07-Wcast-function-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.233116] (sllidar_ros2) StderrLine: {'line': b'   48 |     pthread_create((pthread_t *)&newborn._handle, NULL, \x1b[01;35m\x1b[K(void * (*)(void *))proc\x1b[m\x1b[K, data);\n'}
+[21.233854] (sllidar_ros2) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.236045] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::hal::Thread::join(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.237567] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.238460] (sllidar_ros2) StderrLine: {'line': b'  129 | u_result Thread::join(\x1b[01;35m\x1b[Kunsigned long timeout\x1b[m\x1b[K)\n'}
+[21.239330] (sllidar_ros2) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[21.304401] (-) TimerEvent: {}
+[21.405558] (-) TimerEvent: {}
+[21.506541] (-) TimerEvent: {}
+[21.607446] (-) TimerEvent: {}
+[21.708421] (-) TimerEvent: {}
+[21.743923] (sllidar_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_crc.cpp.o\x1b[0m\n'}
+[21.808685] (-) TimerEvent: {}
+[21.885339] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[21.887303] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_crc.h:36\x1b[m\x1b[K,\n'}
+[21.888539] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_crc.cpp:33\x1b[m\x1b[K:\n'}
+[21.889814] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.891192] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[21.892371] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[21.896192] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_crc.h:36\x1b[m\x1b[K,\n'}
+[21.897929] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_crc.cpp:33\x1b[m\x1b[K:\n'}
+[21.901255] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:312:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.903142] (sllidar_ros2) StderrLine: {'line': b'  312 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[21.904599] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[21.909648] (-) TimerEvent: {}
+[22.010810] (-) TimerEvent: {}
+[22.015612] (sllidar_ros2) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidar_driver.cpp.o\x1b[0m\n'}
+[22.111022] (-) TimerEvent: {}
+[22.211996] (-) TimerEvent: {}
+[22.313027] (-) TimerEvent: {}
+[22.414473] (-) TimerEvent: {}
+[22.515734] (-) TimerEvent: {}
+[22.616892] (-) TimerEvent: {}
+[22.718003] (-) TimerEvent: {}
+[22.819117] (-) TimerEvent: {}
+[22.920251] (-) TimerEvent: {}
+[23.021523] (-) TimerEvent: {}
+[23.122832] (-) TimerEvent: {}
+[23.224196] (-) TimerEvent: {}
+[23.325647] (-) TimerEvent: {}
+[23.426855] (-) TimerEvent: {}
+[23.528063] (-) TimerEvent: {}
+[23.629282] (-) TimerEvent: {}
+[23.738227] (-) TimerEvent: {}
+[23.839380] (-) TimerEvent: {}
+[23.924628] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[23.926302] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[23.927148] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[23.927954] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/rplidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[23.928946] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.930460] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[23.931481] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.932300] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[23.933429] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[23.934282] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[23.935159] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/rplidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[23.936014] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:312:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.936922] (sllidar_ros2) StderrLine: {'line': b'  312 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[23.937682] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.950903] (-) TimerEvent: {}
+[24.051916] (-) TimerEvent: {}
+[24.153023] (-) TimerEvent: {}
+[24.254124] (-) TimerEvent: {}
+[24.355404] (-) TimerEvent: {}
+[24.456506] (-) TimerEvent: {}
+[24.557671] (-) TimerEvent: {}
+[24.658774] (-) TimerEvent: {}
+[24.760105] (-) TimerEvent: {}
+[24.861500] (-) TimerEvent: {}
+[24.962787] (-) TimerEvent: {}
+[24.982205] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.983647] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/rplidar_driver.cpp:67:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.985253] (sllidar_ros2) StderrLine: {'line': b'   67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, \x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K)\n'}
+[24.986304] (sllidar_ros2) StderrLine: {'line': b'      |                                                                        \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[24.987373] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.988253] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/rplidar_driver.cpp:101:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.989033] (sllidar_ros2) StderrLine: {'line': b'  101 |     u_result RPlidarDriver::reset(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[24.989836] (sllidar_ros2) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[24.998941] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.000145] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/rplidar_driver.cpp:180:91:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knodebuffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[25.000998] (sllidar_ros2) StderrLine: {'line': b'  180 |     u_result RPlidarDriver::getScanDataWithInterval(\x1b[01;35m\x1b[Krplidar_response_measurement_node_t * nodebuffer\x1b[m\x1b[K, size_t & count)\n'}
+[25.001730] (sllidar_ros2) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.002563] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/rplidar_driver.cpp:180:112:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcount\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[25.003469] (sllidar_ros2) StderrLine: {'line': b'  180 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, \x1b[01;35m\x1b[Ksize_t & count\x1b[m\x1b[K)\n'}
+[25.004370] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                                       \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[25.063025] (-) TimerEvent: {}
+[25.087165] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[25.088558] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[25.089311] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[25.090149] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[25.091808] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[25.092715] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[25.093452] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[25.094252] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[25.095223] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[25.096273] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[25.097092] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[25.097842] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:312:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[25.098618] (sllidar_ros2) StderrLine: {'line': b'  312 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[25.099390] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[25.163278] (-) TimerEvent: {}
+[25.264335] (-) TimerEvent: {}
+[25.365754] (-) TimerEvent: {}
+[25.467089] (-) TimerEvent: {}
+[25.568286] (-) TimerEvent: {}
+[25.652752] (sllidar_ros2) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_serial_channel.cpp.o\x1b[0m\n'}
+[25.668544] (-) TimerEvent: {}
+[25.769633] (-) TimerEvent: {}
+[25.870738] (-) TimerEvent: {}
+[25.971815] (-) TimerEvent: {}
+[26.072949] (-) TimerEvent: {}
+[26.173988] (-) TimerEvent: {}
+[26.271759] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.272869] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:274:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.273511] (sllidar_ros2) StderrLine: {'line': b'  274 |         sl_result reset(\x1b[01;35m\x1b[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[26.274211] (-) TimerEvent: {}
+[26.274865] (sllidar_ros2) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.284558] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getAllSupportedScanModes(std::vector<sl::LidarScanMode>&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.285376] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:287:89:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.286291] (sllidar_ros2) StderrLine: {'line': b'  287 |         sl_result getAllSupportedScanModes(std::vector<LidarScanMode>& outModes, \x1b[01;35m\x1b[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[26.286864] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.289439] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.290650] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:348:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Koptions\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.291431] (sllidar_ros2) StderrLine: {'line': b'  348 |         sl_result startScan(bool force, bool useTypicalScan, \x1b[01;35m\x1b[Ksl_u32 options = 0\x1b[m\x1b[K, LidarScanMode* outUsedScanMode = nullptr)\n'}
+[26.292000] (sllidar_ros2) StderrLine: {'line': b'      |                                                              \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.302841] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.303875] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:543:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.304552] (sllidar_ros2) StderrLine: {'line': b'  543 |         sl_result stop(\x1b[01;35m\x1b[Ksl_u32 timeout = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[26.305069] (sllidar_ros2) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.307370] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getDeviceInfo(sl_lidar_response_device_info_t&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.308447] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:588:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.309267] (sllidar_ros2) StderrLine: {'line': b'  588 |         sl_result getDeviceInfo(sl_lidar_response_device_info_t& info, \x1b[01;35m\x1b[Ksl_u32 timeout = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[26.309950] (sllidar_ros2) StderrLine: {'line': b'      |                                                                        \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.312528] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::checkMotorCtrlSupport(sl::MotorCtrlSupport&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.313878] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:601:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.315458] (sllidar_ros2) StderrLine: {'line': b'  601 |         sl_result checkMotorCtrlSupport(MotorCtrlSupport & support, \x1b[01;35m\x1b[Ksl_u32 timeout = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[26.316273] (sllidar_ros2) StderrLine: {'line': b'      |                                                                     \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.317148] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.317890] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:636:110:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knodes\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.318694] (sllidar_ros2) StderrLine: {'line': b'  636 |         sl_result getFrequency(const LidarScanMode& scanMode, \x1b[01;35m\x1b[Kconst sl_lidar_response_measurement_node_hq_t* nodes\x1b[m\x1b[K, size_t count, float& frequency)\n'}
+[26.319500] (sllidar_ros2) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[26.332049] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getHealth(sl_lidar_response_device_health_t&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.332992] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:662:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.333827] (sllidar_ros2) StderrLine: {'line': b'  662 |         sl_result getHealth(sl_lidar_response_device_health_t& health, \x1b[01;35m\x1b[Ksl_u32 timeout = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[26.336094] (sllidar_ros2) StderrLine: {'line': b'      |                                                                        \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.337472] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.338895] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:760:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.340145] (sllidar_ros2) StderrLine: {'line': b'  760 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, \x1b[01;35m\x1b[Ksl_u32 timeoutInMs\x1b[m\x1b[K)\n'}
+[26.341231] (sllidar_ros2) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.374493] (-) TimerEvent: {}
+[26.376419] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::SlamtecLidarDriver::_ultraCapsuleToNormal(const sl_lidar_response_ultra_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.377963] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1399:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.379302] (sllidar_ros2) StderrLine: {'line': b' 1399 |                     if ((\x1b[01;35m\x1b[Kdist_predict1 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict1 == 0x1FF)) {\n'}
+[26.380139] (sllidar_ros2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.380913] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1408:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.381772] (sllidar_ros2) StderrLine: {'line': b' 1408 |                     if ((\x1b[01;35m\x1b[Kdist_predict2 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict2 == 0x1FF)) {\n'}
+[26.382545] (sllidar_ros2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.392014] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::SlamtecLidarDriver::_dense_capsuleToNormal(const sl_lidar_response_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.393410] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1606:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on cast result type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.394282] (sllidar_ros2) StderrLine: {'line': b' 1606 |                     const int dist = \x1b[01;35m\x1b[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)\x1b[m\x1b[K;\n'}
+[26.395245] (sllidar_ros2) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.474813] (-) TimerEvent: {}
+[26.575851] (-) TimerEvent: {}
+[26.677314] (-) TimerEvent: {}
+[26.778636] (-) TimerEvent: {}
+[26.879720] (-) TimerEvent: {}
+[26.981081] (-) TimerEvent: {}
+[27.082722] (-) TimerEvent: {}
+[27.183876] (-) TimerEvent: {}
+[27.189175] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K At global scope:\n'}
+[27.191610] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:72:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.192832] (sllidar_ros2) StderrLine: {'line': b'   72 |     static void \x1b[01;35m\x1b[Kconvert\x1b[m\x1b[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)\n'}
+[27.194024] (sllidar_ros2) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[27.194964] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:59:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid sl::printDeprecationWarn(const char*, const char*)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.195854] (sllidar_ros2) StderrLine: {'line': b'   59 |     static void \x1b[01;35m\x1b[KprintDeprecationWarn\x1b[m\x1b[K(const char* fn, const char* replacement)\n'}
+[27.196631] (sllidar_ros2) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[27.284228] (-) TimerEvent: {}
+[27.385650] (-) TimerEvent: {}
+[27.487131] (-) TimerEvent: {}
+[27.552356] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[27.553118] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[27.553874] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33\x1b[m\x1b[K:\n'}
+[27.555108] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.558000] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[27.559415] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[27.560672] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[27.561988] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33\x1b[m\x1b[K:\n'}
+[27.571280] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:312:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.572320] (sllidar_ros2) StderrLine: {'line': b'  312 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[27.573115] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[27.587412] (-) TimerEvent: {}
+[27.688454] (-) TimerEvent: {}
+[27.789590] (-) TimerEvent: {}
+[27.890618] (-) TimerEvent: {}
+[27.933404] (sllidar_ros2) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_tcp_channel.cpp.o\x1b[0m\n'}
+[27.990883] (-) TimerEvent: {}
+[28.091964] (-) TimerEvent: {}
+[28.192983] (-) TimerEvent: {}
+[28.294058] (-) TimerEvent: {}
+[28.395092] (-) TimerEvent: {}
+[28.496211] (-) TimerEvent: {}
+[28.597244] (-) TimerEvent: {}
+[28.699105] (-) TimerEvent: {}
+[28.800268] (-) TimerEvent: {}
+[28.903189] (-) TimerEvent: {}
+[29.004376] (-) TimerEvent: {}
+[29.045826] (sllidar_ros2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_udp_channel.cpp.o\x1b[0m\n'}
+[29.104714] (-) TimerEvent: {}
+[29.214044] (-) TimerEvent: {}
+[29.318866] (-) TimerEvent: {}
+[29.420027] (-) TimerEvent: {}
+[29.526810] (-) TimerEvent: {}
+[29.628020] (-) TimerEvent: {}
+[29.730297] (-) TimerEvent: {}
+[29.842796] (-) TimerEvent: {}
+[29.943834] (-) TimerEvent: {}
+[30.044903] (-) TimerEvent: {}
+[30.145917] (-) TimerEvent: {}
+[30.247111] (-) TimerEvent: {}
+[30.348430] (-) TimerEvent: {}
+[30.382183] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[30.383333] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[30.384321] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33\x1b[m\x1b[K:\n'}
+[30.385762] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.386757] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[30.387737] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[30.388479] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[30.389263] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33\x1b[m\x1b[K:\n'}
+[30.390255] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:312:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.391124] (sllidar_ros2) StderrLine: {'line': b'  312 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[30.391977] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[30.431664] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::TcpChannel::setStatus(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[30.432734] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:94:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.433911] (sllidar_ros2) StderrLine: {'line': b'   94 |         void setStatus(\x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K){}\n'}
+[30.434841] (sllidar_ros2) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[30.448667] (-) TimerEvent: {}
+[30.549932] (-) TimerEvent: {}
+[30.651087] (-) TimerEvent: {}
+[30.752459] (-) TimerEvent: {}
+[30.853572] (-) TimerEvent: {}
+[30.954717] (-) TimerEvent: {}
+[31.055931] (-) TimerEvent: {}
+[31.156955] (-) TimerEvent: {}
+[31.258070] (-) TimerEvent: {}
+[31.266774] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[31.267710] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[31.268534] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33\x1b[m\x1b[K:\n'}
+[31.270156] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[31.271153] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[31.271955] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[31.272889] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[31.273886] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33\x1b[m\x1b[K:\n'}
+[31.274805] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:312:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[31.275687] (sllidar_ros2) StderrLine: {'line': b'  312 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[31.276530] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[31.294925] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_udp_channel.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::UdpChannel::setStatus(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[31.295996] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_udp_channel.cpp:104:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[31.296974] (sllidar_ros2) StderrLine: {'line': b'  104 |         void setStatus(\x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K){}\n'}
+[31.297799] (sllidar_ros2) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[31.308502] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[31.309359] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[31.310128] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[31.313928] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/src/sllidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[31.316930] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[31.317779] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[31.318544] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[31.319576] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[31.320393] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[31.321175] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/src/sllidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[31.321947] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:312:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[31.322803] (sllidar_ros2) StderrLine: {'line': b'  312 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[31.323686] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[31.358375] (-) TimerEvent: {}
+[31.459311] (-) TimerEvent: {}
+[31.560232] (-) TimerEvent: {}
+[31.661268] (-) TimerEvent: {}
+[31.762196] (-) TimerEvent: {}
+[31.863234] (-) TimerEvent: {}
+[31.964144] (-) TimerEvent: {}
+[32.065075] (-) TimerEvent: {}
+[32.165947] (-) TimerEvent: {}
+[32.267002] (-) TimerEvent: {}
+[32.367994] (-) TimerEvent: {}
+[32.468871] (-) TimerEvent: {}
+[32.569763] (-) TimerEvent: {}
+[32.670730] (-) TimerEvent: {}
+[32.771617] (-) TimerEvent: {}
+[32.872495] (-) TimerEvent: {}
+[32.973416] (-) TimerEvent: {}
+[33.074845] (-) TimerEvent: {}
+[33.175796] (-) TimerEvent: {}
+[33.276682] (-) TimerEvent: {}
+[33.377610] (-) TimerEvent: {}
+[33.478488] (-) TimerEvent: {}
+[33.579468] (-) TimerEvent: {}
+[33.680356] (-) TimerEvent: {}
+[33.781253] (-) TimerEvent: {}
+[33.882191] (-) TimerEvent: {}
+[33.983344] (-) TimerEvent: {}
+[34.084229] (-) TimerEvent: {}
+[34.185170] (-) TimerEvent: {}
+[34.286140] (-) TimerEvent: {}
+[34.387107] (-) TimerEvent: {}
+[34.487970] (-) TimerEvent: {}
+[34.588905] (-) TimerEvent: {}
+[34.689835] (-) TimerEvent: {}
+[34.790763] (-) TimerEvent: {}
+[34.891649] (-) TimerEvent: {}
+[34.992578] (-) TimerEvent: {}
+[35.093440] (-) TimerEvent: {}
+[35.194364] (-) TimerEvent: {}
+[35.295401] (-) TimerEvent: {}
+[35.396322] (-) TimerEvent: {}
+[35.497241] (-) TimerEvent: {}
+[35.598225] (-) TimerEvent: {}
+[35.699777] (-) TimerEvent: {}
+[35.800643] (-) TimerEvent: {}
+[35.901649] (-) TimerEvent: {}
+[36.002553] (-) TimerEvent: {}
+[36.103498] (-) TimerEvent: {}
+[36.204431] (-) TimerEvent: {}
+[36.305592] (-) TimerEvent: {}
+[36.407296] (-) TimerEvent: {}
+[36.508285] (-) TimerEvent: {}
+[36.609200] (-) TimerEvent: {}
+[36.710335] (-) TimerEvent: {}
+[36.811881] (-) TimerEvent: {}
+[36.913149] (-) TimerEvent: {}
+[37.014045] (-) TimerEvent: {}
+[37.114990] (-) TimerEvent: {}
+[37.215884] (-) TimerEvent: {}
+[37.316968] (-) TimerEvent: {}
+[37.418034] (-) TimerEvent: {}
+[37.519184] (-) TimerEvent: {}
+[37.620533] (-) TimerEvent: {}
+[37.721471] (-) TimerEvent: {}
+[37.822341] (-) TimerEvent: {}
+[37.923326] (-) TimerEvent: {}
+[38.024214] (-) TimerEvent: {}
+[38.125078] (-) TimerEvent: {}
+[38.226025] (-) TimerEvent: {}
+[38.326951] (-) TimerEvent: {}
+[38.427884] (-) TimerEvent: {}
+[38.528794] (-) TimerEvent: {}
+[38.629708] (-) TimerEvent: {}
+[38.730673] (-) TimerEvent: {}
+[38.831547] (-) TimerEvent: {}
+[38.932484] (-) TimerEvent: {}
+[39.033394] (-) TimerEvent: {}
+[39.134300] (-) TimerEvent: {}
+[39.235349] (-) TimerEvent: {}
+[39.336495] (-) TimerEvent: {}
+[39.437438] (-) TimerEvent: {}
+[39.538666] (-) TimerEvent: {}
+[39.639578] (-) TimerEvent: {}
+[39.740496] (-) TimerEvent: {}
+[39.841450] (-) TimerEvent: {}
+[39.942382] (-) TimerEvent: {}
+[40.043479] (-) TimerEvent: {}
+[40.144440] (-) TimerEvent: {}
+[40.245507] (-) TimerEvent: {}
+[40.346662] (-) TimerEvent: {}
+[40.447673] (-) TimerEvent: {}
+[40.548803] (-) TimerEvent: {}
+[40.649800] (-) TimerEvent: {}
+[40.750746] (-) TimerEvent: {}
+[40.851635] (-) TimerEvent: {}
+[40.952587] (-) TimerEvent: {}
+[41.053512] (-) TimerEvent: {}
+[41.154434] (-) TimerEvent: {}
+[41.255393] (-) TimerEvent: {}
+[41.356270] (-) TimerEvent: {}
+[41.457140] (-) TimerEvent: {}
+[41.558001] (-) TimerEvent: {}
+[41.658907] (-) TimerEvent: {}
+[41.759871] (-) TimerEvent: {}
+[41.860846] (-) TimerEvent: {}
+[41.961782] (-) TimerEvent: {}
+[42.062719] (-) TimerEvent: {}
+[42.163587] (-) TimerEvent: {}
+[42.264484] (-) TimerEvent: {}
+[42.365367] (-) TimerEvent: {}
+[42.466246] (-) TimerEvent: {}
+[42.567289] (-) TimerEvent: {}
+[42.668585] (-) TimerEvent: {}
+[42.769398] (-) TimerEvent: {}
+[42.870206] (-) TimerEvent: {}
+[42.971117] (-) TimerEvent: {}
+[43.071913] (-) TimerEvent: {}
+[43.172769] (-) TimerEvent: {}
+[43.273645] (-) TimerEvent: {}
+[43.374563] (-) TimerEvent: {}
+[43.475466] (-) TimerEvent: {}
+[43.576346] (-) TimerEvent: {}
+[43.677406] (-) TimerEvent: {}
+[43.778274] (-) TimerEvent: {}
+[43.879257] (-) TimerEvent: {}
+[43.982027] (-) TimerEvent: {}
+[44.082942] (-) TimerEvent: {}
+[44.184208] (-) TimerEvent: {}
+[44.285297] (-) TimerEvent: {}
+[44.386142] (-) TimerEvent: {}
+[44.487044] (-) TimerEvent: {}
+[44.587840] (-) TimerEvent: {}
+[44.688683] (-) TimerEvent: {}
+[44.789559] (-) TimerEvent: {}
+[44.890746] (-) TimerEvent: {}
+[44.991752] (-) TimerEvent: {}
+[45.092789] (-) TimerEvent: {}
+[45.194520] (-) TimerEvent: {}
+[45.295862] (-) TimerEvent: {}
+[45.396892] (-) TimerEvent: {}
+[45.499191] (-) TimerEvent: {}
+[45.600900] (sllidar_ros2) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable sllidar_node\x1b[0m\n'}
+[45.602148] (-) TimerEvent: {}
+[45.704328] (-) TimerEvent: {}
+[45.805971] (-) TimerEvent: {}
+[45.908064] (-) TimerEvent: {}
+[46.010376] (-) TimerEvent: {}
+[46.111396] (-) TimerEvent: {}
+[46.212972] (-) TimerEvent: {}
+[46.314007] (-) TimerEvent: {}
+[46.414769] (-) TimerEvent: {}
+[46.515656] (-) TimerEvent: {}
+[46.616953] (-) TimerEvent: {}
+[46.718110] (-) TimerEvent: {}
+[46.819763] (-) TimerEvent: {}
+[46.920757] (-) TimerEvent: {}
+[47.021758] (-) TimerEvent: {}
+[47.122755] (-) TimerEvent: {}
+[47.223706] (-) TimerEvent: {}
+[47.324610] (-) TimerEvent: {}
+[47.425636] (-) TimerEvent: {}
+[47.526504] (-) TimerEvent: {}
+[47.609039] (sllidar_ros2) StdoutLine: {'line': b'[ 92%] Built target sllidar_node\n'}
+[47.626745] (-) TimerEvent: {}
+[47.727504] (-) TimerEvent: {}
+[47.828396] (-) TimerEvent: {}
+[47.929177] (-) TimerEvent: {}
+[48.029952] (-) TimerEvent: {}
+[48.130769] (-) TimerEvent: {}
+[48.231557] (-) TimerEvent: {}
+[48.332325] (-) TimerEvent: {}
+[48.433083] (-) TimerEvent: {}
+[48.533874] (-) TimerEvent: {}
+[48.634696] (-) TimerEvent: {}
+[48.735452] (-) TimerEvent: {}
+[48.836211] (-) TimerEvent: {}
+[48.937009] (-) TimerEvent: {}
+[49.037811] (-) TimerEvent: {}
+[49.138556] (-) TimerEvent: {}
+[49.239392] (-) TimerEvent: {}
+[49.340131] (-) TimerEvent: {}
+[49.440878] (-) TimerEvent: {}
+[49.541660] (-) TimerEvent: {}
+[49.642437] (-) TimerEvent: {}
+[49.743289] (-) TimerEvent: {}
+[49.844046] (-) TimerEvent: {}
+[49.944803] (-) TimerEvent: {}
+[50.045563] (-) TimerEvent: {}
+[50.146343] (-) TimerEvent: {}
+[50.247175] (-) TimerEvent: {}
+[50.347965] (-) TimerEvent: {}
+[50.448721] (-) TimerEvent: {}
+[50.549484] (-) TimerEvent: {}
+[50.650281] (-) TimerEvent: {}
+[50.751082] (-) TimerEvent: {}
+[50.851911] (-) TimerEvent: {}
+[50.952645] (-) TimerEvent: {}
+[51.053424] (-) TimerEvent: {}
+[51.154198] (-) TimerEvent: {}
+[51.255002] (-) TimerEvent: {}
+[51.355802] (-) TimerEvent: {}
+[51.456543] (-) TimerEvent: {}
+[51.557307] (-) TimerEvent: {}
+[51.658087] (-) TimerEvent: {}
+[51.758897] (-) TimerEvent: {}
+[51.859719] (-) TimerEvent: {}
+[51.960479] (-) TimerEvent: {}
+[52.061194] (-) TimerEvent: {}
+[52.162022] (-) TimerEvent: {}
+[52.262835] (-) TimerEvent: {}
+[52.363643] (-) TimerEvent: {}
+[52.464410] (-) TimerEvent: {}
+[52.565182] (-) TimerEvent: {}
+[52.665993] (-) TimerEvent: {}
+[52.766746] (-) TimerEvent: {}
+[52.867506] (-) TimerEvent: {}
+[52.968272] (-) TimerEvent: {}
+[53.069038] (-) TimerEvent: {}
+[53.169814] (-) TimerEvent: {}
+[53.270549] (-) TimerEvent: {}
+[53.371312] (-) TimerEvent: {}
+[53.472118] (-) TimerEvent: {}
+[53.572907] (-) TimerEvent: {}
+[53.673676] (-) TimerEvent: {}
+[53.774447] (-) TimerEvent: {}
+[53.875261] (-) TimerEvent: {}
+[53.976059] (-) TimerEvent: {}
+[54.076825] (-) TimerEvent: {}
+[54.177595] (-) TimerEvent: {}
+[54.278379] (-) TimerEvent: {}
+[54.379201] (-) TimerEvent: {}
+[54.480006] (-) TimerEvent: {}
+[54.580786] (-) TimerEvent: {}
+[54.681537] (-) TimerEvent: {}
+[54.782348] (-) TimerEvent: {}
+[54.883190] (-) TimerEvent: {}
+[54.984019] (-) TimerEvent: {}
+[55.084805] (-) TimerEvent: {}
+[55.185565] (-) TimerEvent: {}
+[55.286339] (-) TimerEvent: {}
+[55.387151] (-) TimerEvent: {}
+[55.487938] (-) TimerEvent: {}
+[55.588763] (-) TimerEvent: {}
+[55.689536] (-) TimerEvent: {}
+[55.790341] (-) TimerEvent: {}
+[55.891136] (-) TimerEvent: {}
+[55.991915] (-) TimerEvent: {}
+[56.092762] (-) TimerEvent: {}
+[56.193571] (-) TimerEvent: {}
+[56.294334] (-) TimerEvent: {}
+[56.395141] (-) TimerEvent: {}
+[56.495902] (-) TimerEvent: {}
+[56.597080] (-) TimerEvent: {}
+[56.699266] (-) TimerEvent: {}
+[56.800021] (-) TimerEvent: {}
+[56.900742] (-) TimerEvent: {}
+[57.001510] (-) TimerEvent: {}
+[57.102309] (-) TimerEvent: {}
+[57.203176] (-) TimerEvent: {}
+[57.303899] (-) TimerEvent: {}
+[57.404674] (-) TimerEvent: {}
+[57.505445] (-) TimerEvent: {}
+[57.606237] (-) TimerEvent: {}
+[57.707130] (-) TimerEvent: {}
+[57.807907] (-) TimerEvent: {}
+[57.908768] (-) TimerEvent: {}
+[58.009614] (-) TimerEvent: {}
+[58.110683] (-) TimerEvent: {}
+[58.211625] (-) TimerEvent: {}
+[58.312437] (-) TimerEvent: {}
+[58.413258] (-) TimerEvent: {}
+[58.514067] (-) TimerEvent: {}
+[58.614907] (-) TimerEvent: {}
+[58.715682] (-) TimerEvent: {}
+[58.816468] (-) TimerEvent: {}
+[58.917247] (-) TimerEvent: {}
+[59.018020] (-) TimerEvent: {}
+[59.118850] (-) TimerEvent: {}
+[59.219622] (-) TimerEvent: {}
+[59.320366] (-) TimerEvent: {}
+[59.421132] (-) TimerEvent: {}
+[59.521936] (-) TimerEvent: {}
+[59.622749] (-) TimerEvent: {}
+[59.723575] (-) TimerEvent: {}
+[59.824344] (-) TimerEvent: {}
+[59.925136] (-) TimerEvent: {}
+[60.025920] (-) TimerEvent: {}
+[60.126870] (-) TimerEvent: {}
+[60.228110] (-) TimerEvent: {}
+[60.330178] (-) TimerEvent: {}
+[60.431252] (-) TimerEvent: {}
+[60.532079] (-) TimerEvent: {}
+[60.633050] (-) TimerEvent: {}
+[60.734173] (-) TimerEvent: {}
+[60.835768] (-) TimerEvent: {}
+[60.936492] (-) TimerEvent: {}
+[61.016668] (sllidar_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sllidar_client\x1b[0m\n'}
+[61.036734] (-) TimerEvent: {}
+[61.137709] (-) TimerEvent: {}
+[61.238800] (-) TimerEvent: {}
+[61.339772] (-) TimerEvent: {}
+[61.440901] (-) TimerEvent: {}
+[61.542328] (-) TimerEvent: {}
+[61.643693] (-) TimerEvent: {}
+[61.744765] (-) TimerEvent: {}
+[61.845736] (-) TimerEvent: {}
+[61.946680] (-) TimerEvent: {}
+[62.047729] (-) TimerEvent: {}
+[62.148633] (-) TimerEvent: {}
+[62.249457] (-) TimerEvent: {}
+[62.350493] (-) TimerEvent: {}
+[62.451279] (-) TimerEvent: {}
+[62.552130] (-) TimerEvent: {}
+[62.652812] (-) TimerEvent: {}
+[62.753504] (-) TimerEvent: {}
+[62.854247] (-) TimerEvent: {}
+[62.955335] (-) TimerEvent: {}
+[63.056388] (-) TimerEvent: {}
+[63.157085] (-) TimerEvent: {}
+[63.253913] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_client\n'}
+[63.257268] (-) TimerEvent: {}
+[63.298847] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 'SIGINT'}
+[63.302765] (-) EventReactorShutdown: {}

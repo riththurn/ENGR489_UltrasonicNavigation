@@ -1,0 +1,269 @@
+[0.171s] Invoking command in '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2
+[1.739s] -- The C compiler identification is GNU 11.3.0
+[1.739s] -- The CXX compiler identification is GNU 11.3.0
+[1.758s] -- Detecting C compiler ABI info
+[2.244s] -- Detecting C compiler ABI info - done
+[2.278s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.281s] -- Detecting C compile features
+[2.286s] -- Detecting C compile features - done
+[2.307s] -- Detecting CXX compiler ABI info
+[2.826s] -- Detecting CXX compiler ABI info - done
+[2.856s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.859s] -- Detecting CXX compile features
+[2.861s] -- Detecting CXX compile features - done
+[2.913s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.353s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[5.385s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[6.032s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.105s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.241s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.389s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.550s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.036s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.069s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.846s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.126s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.585s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.700s] -- Looking for pthread.h
+[9.147s] -- Looking for pthread.h - found
+[9.149s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.668s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.673s] -- Found Threads: TRUE  
+[10.538s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[11.134s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[11.663s] -- Configuring done
+[11.767s] -- Generating done
+[11.776s] -- Build files have been written to: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/sllidar_ros2
+[11.817s] Invoked command in '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2
+[11.828s] Invoking command in '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/sllidar_ros2 -- -j4 -l4
+[12.086s] [  7%] [32mBuilding CXX object CMakeFiles/sllidar_client.dir/src/sllidar_client.cpp.o[0m
+[12.092s] [ 14%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[12.096s] [ 21%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[12.100s] [ 28%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o[0m
+[15.559s] In file included from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[15.560s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[15.561s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[15.562s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[15.564s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[15.565s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[15.566s]       |                [01;35m[K^[m[K
+[15.567s] In file included from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[15.567s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[15.568s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[15.569s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[15.570s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[15.571s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[15.573s]       |                    [01;35m[K^[m[K
+[16.448s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[16.449s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[16.450s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[16.452s]       |                                                                 [01;35m[K~~~~~~~~~^~~~~[m[K
+[16.453s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[16.454s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[16.455s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[16.456s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[16.457s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[16.458s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[16.459s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[16.459s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[16.460s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[16.461s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[16.462s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[16.463s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[17.190s] [ 35%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[17.396s] [ 42%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/hal/thread.cpp.o[0m
+[20.874s] [ 50%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/rplidar_driver.cpp.o[0m
+[20.927s] In file included from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[20.927s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[20.928s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[20.930s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[20.931s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[20.932s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[20.933s]       |                [01;35m[K^[m[K
+[20.934s] In file included from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[20.935s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[20.936s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[20.941s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[20.943s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[20.944s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[20.944s]       |                    [01;35m[K^[m[K
+[21.229s] In file included from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/hal/thread.cpp:43[m[K:
+[21.230s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[21.230s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:48:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[21.231s]    48 |     pthread_create((pthread_t *)&newborn._handle, NULL, [01;35m[K(void * (*)(void *))proc[m[K, data);
+[21.232s]       |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.235s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::join(long unsigned int)[m[K’:
+[21.236s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.237s]   129 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[21.238s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[21.742s] [ 57%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_crc.cpp.o[0m
+[21.884s] In file included from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[21.885s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_crc.h:36[m[K,
+[21.887s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_crc.cpp:33[m[K:
+[21.888s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[21.889s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[21.891s]       |                [01;35m[K^[m[K
+[21.895s] In file included from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_crc.h:36[m[K,
+[21.897s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_crc.cpp:33[m[K:
+[21.900s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[21.902s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[21.906s]       |                    [01;35m[K^[m[K
+[22.014s] [ 64%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidar_driver.cpp.o[0m
+[23.924s] In file included from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[23.925s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[23.925s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[23.926s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/rplidar_driver.cpp:33[m[K:
+[23.928s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[23.929s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[23.930s]       |                [01;35m[K^[m[K
+[23.931s] In file included from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[23.932s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[23.933s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[23.933s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/rplidar_driver.cpp:33[m[K:
+[23.934s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[23.935s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[23.936s]       |                    [01;35m[K^[m[K
+[24.981s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)[m[K’:
+[24.982s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/rplidar_driver.cpp:67:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[24.984s]    67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, [01;35m[K_u32 flag[m[K)
+[24.985s]       |                                                                        [01;35m[K~~~~~^~~~[m[K
+[24.985s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)[m[K’:
+[24.986s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/rplidar_driver.cpp:101:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[24.987s]   101 |     u_result RPlidarDriver::reset([01;35m[K_u32 timeout[m[K)
+[24.988s]       |                                   [01;35m[K~~~~~^~~~~~~[m[K
+[24.997s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)[m[K’:
+[24.998s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/rplidar_driver.cpp:180:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodebuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[24.999s]   180 |     u_result RPlidarDriver::getScanDataWithInterval([01;35m[Krplidar_response_measurement_node_t * nodebuffer[m[K, size_t & count)
+[25.000s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[25.001s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/rplidar_driver.cpp:180:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[25.002s]   180 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, [01;35m[Ksize_t & count[m[K)
+[25.003s]       |                                                                                                       [01;35m[K~~~~~~~~~^~~~~[m[K
+[25.086s] In file included from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[25.087s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[25.087s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[25.089s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[25.090s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.091s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[25.092s]       |                [01;35m[K^[m[K
+[25.092s] In file included from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[25.094s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[25.094s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[25.095s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[25.096s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.097s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[25.097s]       |                    [01;35m[K^[m[K
+[25.651s] [ 71%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_serial_channel.cpp.o[0m
+[26.270s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)[m[K’:
+[26.271s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:274:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.272s]   274 |         sl_result reset([01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[26.273s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.283s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getAllSupportedScanModes(std::vector<sl::LidarScanMode>&, sl_u32)[m[K’:
+[26.284s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:287:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.284s]   287 |         sl_result getAllSupportedScanModes(std::vector<LidarScanMode>& outModes, [01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[26.285s]       |                                                                                  [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.288s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)[m[K’:
+[26.289s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:348:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.289s]   348 |         sl_result startScan(bool force, bool useTypicalScan, [01;35m[Ksl_u32 options = 0[m[K, LidarScanMode* outUsedScanMode = nullptr)
+[26.290s]       |                                                              [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[26.301s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)[m[K’:
+[26.302s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:543:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.303s]   543 |         sl_result stop([01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[26.303s]       |                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.306s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getDeviceInfo(sl_lidar_response_device_info_t&, sl_u32)[m[K’:
+[26.307s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:588:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.307s]   588 |         sl_result getDeviceInfo(sl_lidar_response_device_info_t& info, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[26.308s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.311s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::checkMotorCtrlSupport(sl::MotorCtrlSupport&, sl_u32)[m[K’:
+[26.313s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:601:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.314s]   601 |         sl_result checkMotorCtrlSupport(MotorCtrlSupport & support, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[26.315s]       |                                                                     [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.315s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)[m[K’:
+[26.316s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:636:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.317s]   636 |         sl_result getFrequency(const LidarScanMode& scanMode, [01;35m[Kconst sl_lidar_response_measurement_node_hq_t* nodes[m[K, size_t count, float& frequency)
+[26.329s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[26.330s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getHealth(sl_lidar_response_device_health_t&, sl_u32)[m[K’:
+[26.331s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:662:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.333s]   662 |         sl_result getHealth(sl_lidar_response_device_health_t& health, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[26.335s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.336s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)[m[K’:
+[26.337s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:760:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.339s]   760 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, [01;35m[Ksl_u32 timeoutInMs[m[K)
+[26.339s]       |                                                           [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[26.375s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvoid sl::SlamtecLidarDriver::_ultraCapsuleToNormal(const sl_lidar_response_ultra_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[26.377s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1399:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[26.377s]  1399 |                     if (([01;35m[Kdist_predict1 == 0xFFFFFE00[m[K) || (dist_predict1 == 0x1FF)) {
+[26.378s]       |                          [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[26.379s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1408:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[26.380s]  1408 |                     if (([01;35m[Kdist_predict2 == 0xFFFFFE00[m[K) || (dist_predict2 == 0x1FF)) {
+[26.381s]       |                          [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[26.391s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvoid sl::SlamtecLidarDriver::_dense_capsuleToNormal(const sl_lidar_response_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[26.392s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1606:38:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[26.393s]  1606 |                     const int dist = [01;35m[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)[m[K;
+[26.393s]       |                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[27.189s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K At global scope:
+[27.190s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:72:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[27.191s]    72 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)
+[27.192s]       |                 [01;35m[K^~~~~~~[m[K
+[27.193s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:59:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::printDeprecationWarn(const char*, const char*)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[27.194s]    59 |     static void [01;35m[KprintDeprecationWarn[m[K(const char* fn, const char* replacement)
+[27.195s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[27.550s] In file included from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[27.551s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[27.552s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33[m[K:
+[27.555s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[27.557s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[27.558s]       |                [01;35m[K^[m[K
+[27.559s] In file included from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[27.569s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33[m[K:
+[27.570s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[27.570s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[27.571s]       |                    [01;35m[K^[m[K
+[27.932s] [ 78%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_tcp_channel.cpp.o[0m
+[29.044s] [ 85%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_udp_channel.cpp.o[0m
+[30.381s] In file included from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[30.382s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[30.383s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[30.384s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[30.385s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[30.386s]       |                [01;35m[K^[m[K
+[30.387s] In file included from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[30.388s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[30.388s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[30.389s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[30.390s]       |                    [01;35m[K^[m[K
+[30.430s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::TcpChannel::setStatus(_u32)[m[K’:
+[30.431s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:94:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[30.432s]    94 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[30.433s]       |                        [01;35m[K~~~~~^~~~[m[K
+[31.265s] In file included from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[31.266s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[31.267s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33[m[K:
+[31.268s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[31.269s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[31.270s]       |                [01;35m[K^[m[K
+[31.271s] In file included from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[31.272s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33[m[K:
+[31.273s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[31.274s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[31.275s]       |                    [01;35m[K^[m[K
+[31.293s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_udp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::UdpChannel::setStatus(_u32)[m[K’:
+[31.294s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/sdk/src/sl_udp_channel.cpp:104:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[31.295s]   104 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[31.296s]       |                        [01;35m[K~~~~~^~~~[m[K
+[31.307s] In file included from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[31.307s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[31.311s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[31.314s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[31.315s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[31.316s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[31.317s]       |                [01;35m[K^[m[K
+[31.318s] In file included from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[31.319s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[31.319s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[31.320s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[31.321s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[31.322s]       |                    [01;35m[K^[m[K
+[45.599s] [ 92%] [32m[1mLinking CXX executable sllidar_node[0m
+[47.607s] [ 92%] Built target sllidar_node
+[61.015s] [100%] [32m[1mLinking CXX executable sllidar_client[0m
+[63.252s] [100%] Built target sllidar_client

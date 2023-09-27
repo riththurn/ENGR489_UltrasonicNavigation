@@ -27,7 +27,8 @@ setup(
     entry_points={
         'console_scripts': [
     'low_level_ros_interface_node = eeen489_robot.low_level_ros_interface_node:main',
-    'high_level_ros_interface_node = eeen489_robot.high_level_ros_interface_node:main'
+    'high_level_ros_interface_node = eeen489_robot.high_level_ros_interface_node:main',
+    'swap_scan_axis = eeen489_robot.swap_scan_axis:main'
         ],
     },
 )

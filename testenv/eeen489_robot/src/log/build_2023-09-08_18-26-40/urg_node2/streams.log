@@ -1,0 +1,54 @@
+[1.638s] Invoking command in '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/urg_node2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/urg_node2/urg_node2 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/urg_node2
+[2.006s] -- The C compiler identification is GNU 11.3.0
+[2.354s] -- The CXX compiler identification is GNU 11.3.0
+[2.396s] -- Detecting C compiler ABI info
+[2.874s] -- Detecting C compiler ABI info - done
+[2.911s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.912s] -- Detecting C compile features
+[2.914s] -- Detecting C compile features - done
+[2.928s] -- Detecting CXX compiler ABI info
+[3.461s] -- Detecting CXX compiler ABI info - done
+[3.495s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.498s] -- Detecting CXX compile features
+[3.501s] -- Detecting CXX compile features - done
+[3.536s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.924s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[5.657s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[6.210s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.265s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.332s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.424s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.558s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.969s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.996s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.735s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.016s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.473s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.590s] -- Looking for pthread.h
+[9.037s] -- Looking for pthread.h - found
+[9.039s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.529s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.554s] -- Found Threads: TRUE  
+[10.424s] -- Found rclcpp_components: 16.0.3 (/opt/ros/humble/share/rclcpp_components/cmake)
+[10.871s] -- Found rclcpp_lifecycle: 16.0.3 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[11.135s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[11.745s] -- Found diagnostic_updater: 3.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[12.211s] -- Found laser_proc: 1.0.2 (/opt/ros/humble/share/laser_proc/cmake)
+[12.528s] -- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[12.596s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[13.347s] -- Configuring done
+[13.389s] [31mCMake Error at CMakeLists.txt:34 (add_library):
+[13.390s]   Cannot find source file:
+[13.391s] 
+[13.391s]     urg_library/current/src/urg_sensor.c
+[13.391s] 
+[13.392s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[13.392s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[13.392s] 
+[13.393s] [0m
+[13.403s] [31mCMake Error at CMakeLists.txt:34 (add_library):
+[13.404s]   No SOURCES given to target: urg_c
+[13.404s] 
+[13.405s] [0m
+[13.405s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[13.479s] Invoked command in '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/urg_node2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/urg_node2/urg_node2 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/urg_node2

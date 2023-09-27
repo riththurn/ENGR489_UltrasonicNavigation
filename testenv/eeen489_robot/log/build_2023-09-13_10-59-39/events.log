@@ -1,0 +1,239 @@
+[0.000000] (-) TimerEvent: {}
+[0.001236] (eeen489_robot) JobQueued: {'identifier': 'eeen489_robot', 'dependencies': OrderedDict()}
+[0.001627] (eeen489_robot) JobStarted: {'identifier': 'eeen489_robot'}
+[0.047974] (-) TimerEvent: {}
+[0.154853] (-) TimerEvent: {}
+[0.258094] (-) TimerEvent: {}
+[0.366696] (-) TimerEvent: {}
+[0.468676] (-) TimerEvent: {}
+[0.571929] (-) TimerEvent: {}
+[0.684596] (-) TimerEvent: {}
+[0.786589] (-) TimerEvent: {}
+[0.888187] (-) TimerEvent: {}
+[0.990625] (-) TimerEvent: {}
+[1.096660] (-) TimerEvent: {}
+[1.198574] (-) TimerEvent: {}
+[1.301659] (-) TimerEvent: {}
+[1.405207] (-) TimerEvent: {}
+[1.509042] (-) TimerEvent: {}
+[1.612693] (-) TimerEvent: {}
+[1.715177] (-) TimerEvent: {}
+[1.821273] (-) TimerEvent: {}
+[1.923674] (-) TimerEvent: {}
+[2.025893] (-) TimerEvent: {}
+[2.134097] (-) TimerEvent: {}
+[2.264809] (-) TimerEvent: {}
+[2.375027] (-) TimerEvent: {}
+[2.482837] (-) TimerEvent: {}
+[2.585348] (-) TimerEvent: {}
+[2.697014] (-) TimerEvent: {}
+[2.824743] (-) TimerEvent: {}
+[2.930204] (-) TimerEvent: {}
+[3.039985] (-) TimerEvent: {}
+[3.147423] (-) TimerEvent: {}
+[3.264015] (-) TimerEvent: {}
+[3.367273] (-) TimerEvent: {}
+[3.478941] (-) TimerEvent: {}
+[3.580692] (-) TimerEvent: {}
+[3.686405] (-) TimerEvent: {}
+[3.795788] (-) TimerEvent: {}
+[3.904593] (-) TimerEvent: {}
+[4.005951] (-) TimerEvent: {}
+[4.108083] (-) TimerEvent: {}
+[4.217097] (-) TimerEvent: {}
+[4.321609] (-) TimerEvent: {}
+[4.424665] (-) TimerEvent: {}
+[4.532854] (-) TimerEvent: {}
+[4.657103] (-) TimerEvent: {}
+[4.791667] (-) TimerEvent: {}
+[4.905958] (-) TimerEvent: {}
+[5.013295] (-) TimerEvent: {}
+[5.117277] (-) TimerEvent: {}
+[5.222598] (-) TimerEvent: {}
+[5.351773] (-) TimerEvent: {}
+[5.454741] (-) TimerEvent: {}
+[5.564269] (-) TimerEvent: {}
+[5.673734] (-) TimerEvent: {}
+[5.777746] (-) TimerEvent: {}
+[5.889560] (-) TimerEvent: {}
+[6.001619] (-) TimerEvent: {}
+[6.104972] (-) TimerEvent: {}
+[6.226955] (-) TimerEvent: {}
+[6.336099] (-) TimerEvent: {}
+[6.437721] (-) TimerEvent: {}
+[6.545070] (-) TimerEvent: {}
+[6.652922] (-) TimerEvent: {}
+[6.760254] (-) TimerEvent: {}
+[6.871445] (-) TimerEvent: {}
+[6.977817] (-) TimerEvent: {}
+[7.079840] (-) TimerEvent: {}
+[7.203168] (-) TimerEvent: {}
+[7.304283] (-) TimerEvent: {}
+[7.408872] (-) TimerEvent: {}
+[7.516911] (-) TimerEvent: {}
+[7.619276] (-) TimerEvent: {}
+[7.731685] (-) TimerEvent: {}
+[7.843333] (-) TimerEvent: {}
+[7.945250] (-) TimerEvent: {}
+[8.049616] (-) TimerEvent: {}
+[8.152766] (-) TimerEvent: {}
+[8.256805] (-) TimerEvent: {}
+[8.358508] (-) TimerEvent: {}
+[8.470862] (-) TimerEvent: {}
+[8.572938] (-) TimerEvent: {}
+[8.683892] (-) TimerEvent: {}
+[8.792833] (-) TimerEvent: {}
+[8.895618] (-) TimerEvent: {}
+[8.999513] (-) TimerEvent: {}
+[9.105321] (-) TimerEvent: {}
+[9.228608] (-) TimerEvent: {}
+[9.329442] (-) TimerEvent: {}
+[9.430427] (-) TimerEvent: {}
+[9.549171] (-) TimerEvent: {}
+[9.651115] (-) TimerEvent: {}
+[9.760627] (-) TimerEvent: {}
+[9.861598] (-) TimerEvent: {}
+[9.963075] (-) TimerEvent: {}
+[10.067032] (-) TimerEvent: {}
+[10.171432] (-) TimerEvent: {}
+[10.272345] (-) TimerEvent: {}
+[10.373487] (-) TimerEvent: {}
+[10.474899] (-) TimerEvent: {}
+[10.578987] (-) TimerEvent: {}
+[10.679783] (-) TimerEvent: {}
+[10.788557] (-) TimerEvent: {}
+[10.889891] (-) TimerEvent: {}
+[10.992297] (-) TimerEvent: {}
+[11.093756] (-) TimerEvent: {}
+[11.195057] (-) TimerEvent: {}
+[11.299022] (-) TimerEvent: {}
+[11.409596] (-) TimerEvent: {}
+[11.512896] (-) TimerEvent: {}
+[11.623878] (-) TimerEvent: {}
+[11.725162] (-) TimerEvent: {}
+[11.826224] (-) TimerEvent: {}
+[11.931210] (-) TimerEvent: {}
+[12.035557] (-) TimerEvent: {}
+[12.152683] (-) TimerEvent: {}
+[12.256612] (-) TimerEvent: {}
+[12.364866] (-) TimerEvent: {}
+[12.471335] (-) TimerEvent: {}
+[12.574550] (-) TimerEvent: {}
+[12.676027] (-) TimerEvent: {}
+[12.778817] (-) TimerEvent: {}
+[12.888695] (-) TimerEvent: {}
+[12.992483] (-) TimerEvent: {}
+[13.093840] (-) TimerEvent: {}
+[13.196774] (-) TimerEvent: {}
+[13.297859] (-) TimerEvent: {}
+[13.399641] (-) TimerEvent: {}
+[13.509408] (-) TimerEvent: {}
+[13.625266] (-) TimerEvent: {}
+[13.727854] (-) TimerEvent: {}
+[13.831418] (-) TimerEvent: {}
+[13.933150] (-) TimerEvent: {}
+[14.036163] (-) TimerEvent: {}
+[14.137901] (-) TimerEvent: {}
+[14.240014] (-) TimerEvent: {}
+[14.342504] (-) TimerEvent: {}
+[14.444040] (-) TimerEvent: {}
+[14.555222] (-) TimerEvent: {}
+[14.656098] (-) TimerEvent: {}
+[14.766040] (-) TimerEvent: {}
+[14.867654] (-) TimerEvent: {}
+[14.969736] (-) TimerEvent: {}
+[15.071392] (-) TimerEvent: {}
+[15.178666] (-) TimerEvent: {}
+[15.292659] (-) TimerEvent: {}
+[15.394107] (-) TimerEvent: {}
+[15.507252] (-) TimerEvent: {}
+[15.608246] (-) TimerEvent: {}
+[15.683366] (eeen489_robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/eeen489_robot', 'build', '--build-base', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/build/eeen489_robot/build', 'install', '--record', '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/build/eeen489_robot/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_NZ:en', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1205', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/texlive/2022/bin/aarch64-linux:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/EEEN325-Robot-Test:@/tmp/.ICE-unix/1181,unix/EEEN325-Robot-Test:/tmp/.ICE-unix/1181', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/af1c210d_6a77_4bd0_b658_1602994ccc66', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_NZ.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.2V5TA2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1334', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/build/eeen489_robot', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/build/eeen489_robot/prefix_override:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2'}, 'shell': False}
+[15.709256] (-) TimerEvent: {}
+[15.823552] (-) TimerEvent: {}
+[15.930488] (-) TimerEvent: {}
+[16.036022] (-) TimerEvent: {}
+[16.147430] (-) TimerEvent: {}
+[16.249280] (-) TimerEvent: {}
+[16.352594] (-) TimerEvent: {}
+[16.457408] (-) TimerEvent: {}
+[16.559438] (-) TimerEvent: {}
+[16.664748] (-) TimerEvent: {}
+[16.766510] (-) TimerEvent: {}
+[16.875093] (-) TimerEvent: {}
+[16.986754] (-) TimerEvent: {}
+[17.092616] (-) TimerEvent: {}
+[17.200612] (-) TimerEvent: {}
+[17.303179] (-) TimerEvent: {}
+[17.416862] (-) TimerEvent: {}
+[17.520632] (-) TimerEvent: {}
+[17.622263] (-) TimerEvent: {}
+[17.725692] (-) TimerEvent: {}
+[17.827433] (-) TimerEvent: {}
+[17.948606] (-) TimerEvent: {}
+[18.060136] (-) TimerEvent: {}
+[18.168026] (-) TimerEvent: {}
+[18.277703] (-) TimerEvent: {}
+[18.381281] (-) TimerEvent: {}
+[18.499498] (-) TimerEvent: {}
+[18.610342] (-) TimerEvent: {}
+[18.713743] (-) TimerEvent: {}
+[18.815875] (-) TimerEvent: {}
+[18.919365] (-) TimerEvent: {}
+[19.024730] (-) TimerEvent: {}
+[19.132647] (-) TimerEvent: {}
+[19.236558] (-) TimerEvent: {}
+[19.340612] (-) TimerEvent: {}
+[19.441654] (-) TimerEvent: {}
+[19.544576] (-) TimerEvent: {}
+[19.648643] (-) TimerEvent: {}
+[19.753013] (-) TimerEvent: {}
+[19.854662] (-) TimerEvent: {}
+[19.955890] (-) TimerEvent: {}
+[20.057550] (-) TimerEvent: {}
+[20.160676] (-) TimerEvent: {}
+[20.264659] (-) TimerEvent: {}
+[20.368583] (-) TimerEvent: {}
+[20.472593] (-) TimerEvent: {}
+[20.576603] (-) TimerEvent: {}
+[20.677425] (-) TimerEvent: {}
+[20.778256] (-) TimerEvent: {}
+[20.884753] (-) TimerEvent: {}
+[20.955999] (eeen489_robot) StdoutLine: {'line': b'running egg_info\n'}
+[20.959560] (eeen489_robot) StdoutLine: {'line': b'writing build/eeen489_robot/eeen489_robot.egg-info/PKG-INFO\n'}
+[20.962259] (eeen489_robot) StdoutLine: {'line': b'writing dependency_links to build/eeen489_robot/eeen489_robot.egg-info/dependency_links.txt\n'}
+[20.967353] (eeen489_robot) StdoutLine: {'line': b'writing entry points to build/eeen489_robot/eeen489_robot.egg-info/entry_points.txt\n'}
+[20.973597] (eeen489_robot) StdoutLine: {'line': b'writing requirements to build/eeen489_robot/eeen489_robot.egg-info/requires.txt\n'}
+[20.976725] (eeen489_robot) StdoutLine: {'line': b'writing top-level names to build/eeen489_robot/eeen489_robot.egg-info/top_level.txt\n'}
+[20.987404] (-) TimerEvent: {}
+[20.991232] (eeen489_robot) StdoutLine: {'line': b"reading manifest file 'build/eeen489_robot/eeen489_robot.egg-info/SOURCES.txt'\n"}
+[21.006941] (eeen489_robot) StdoutLine: {'line': b"writing manifest file 'build/eeen489_robot/eeen489_robot.egg-info/SOURCES.txt'\n"}
+[21.008846] (eeen489_robot) StdoutLine: {'line': b'running build\n'}
+[21.010023] (eeen489_robot) StdoutLine: {'line': b'running build_py\n'}
+[21.012263] (eeen489_robot) StdoutLine: {'line': b'running install\n'}
+[21.013593] (eeen489_robot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[21.014780] (eeen489_robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[21.030354] (eeen489_robot) StdoutLine: {'line': b'running install_lib\n'}
+[21.037746] (eeen489_robot) StdoutLine: {'line': b'running install_data\n'}
+[21.044190] (eeen489_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[21.062698] (eeen489_robot) StdoutLine: {'line': b"removing '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages/eeen489_robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[21.066084] (eeen489_robot) StdoutLine: {'line': b'Copying build/eeen489_robot/eeen489_robot.egg-info to /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages/eeen489_robot-0.0.0-py3.10.egg-info\n'}
+[21.089181] (-) TimerEvent: {}
+[21.097415] (eeen489_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[21.188011] (-) TimerEvent: {}
+[21.289654] (-) TimerEvent: {}
+[21.396607] (eeen489_robot) StdoutLine: {'line': b'Installing high_level_ros_interface_node script to /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/install/eeen489_robot/lib/eeen489_robot\n'}
+[21.397367] (-) TimerEvent: {}
+[21.401121] (eeen489_robot) StdoutLine: {'line': b'Installing low_level_ros_interface_node script to /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/install/eeen489_robot/lib/eeen489_robot\n'}
+[21.405625] (eeen489_robot) StdoutLine: {'line': b'Installing swap_scan_axis script to /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/install/eeen489_robot/lib/eeen489_robot\n'}
+[21.406402] (eeen489_robot) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/build/eeen489_robot/install.log'\n"}
+[21.497777] (-) TimerEvent: {}
+[21.604713] (-) TimerEvent: {}
+[21.714444] (-) TimerEvent: {}
+[21.818264] (-) TimerEvent: {}
+[21.886876] (eeen489_robot) CommandEnded: {'returncode': 0}
+[21.921620] (-) TimerEvent: {}
+[22.031494] (-) TimerEvent: {}
+[22.132242] (eeen489_robot) JobEnded: {'identifier': 'eeen489_robot', 'rc': 0}
+[22.137332] (-) TimerEvent: {}
+[22.141520] (-) EventReactorShutdown: {}

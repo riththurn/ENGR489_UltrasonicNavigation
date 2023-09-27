@@ -1,7 +1,7 @@
 CMakeFiles/sllidar_node.dir/sdk/src/sl_udp_channel.cpp.o: \
- /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp \
+ /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp \
  /usr/include/stdc-predef.h \
- /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h \
+ /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
@@ -143,9 +143,9 @@ CMakeFiles/sllidar_node.dir/sdk/src/sl_udp_channel.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h \
- /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h \
- /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_types.h \
- /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/hal/abs_rxtx.h \
- /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/./sdk/src/hal/types.h \
- /home/ubuntu/Documents/engr489/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/hal/socket.h
+ /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h \
+ /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h \
+ /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_types.h \
+ /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/hal/abs_rxtx.h \
+ /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/./sdk/src/hal/types.h \
+ /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/sdk/src/hal/socket.h

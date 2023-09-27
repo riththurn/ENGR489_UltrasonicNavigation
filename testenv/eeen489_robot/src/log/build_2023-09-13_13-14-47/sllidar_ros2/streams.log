@@ -1,0 +1,68 @@
+[0.265s] Invoking command in '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/sllidar_ros2 -- -j4 -l4
+[1.212s] [35m[1mConsolidate compiler generated dependencies of target sllidar_node[0m
+[1.656s] [  7%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o[0m
+[23.772s] In file included from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[23.772s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[23.773s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[23.774s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[23.774s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[23.775s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[23.775s]       |                [01;35m[K^[m[K
+[23.776s] In file included from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[23.776s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[23.777s]                  from [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[23.777s] [01m[K/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[23.778s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[23.778s]       |                    [01;35m[K^[m[K
+[40.152s] [ 14%] [32m[1mLinking CXX executable sllidar_node[0m
+[42.729s] [ 85%] Built target sllidar_node
+[42.878s] [100%] Built target sllidar_client
+[42.993s] Invoked command in '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/sllidar_ros2 -- -j4 -l4
+[43.566s] Invoking command in '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/sllidar_ros2
+[43.621s] -- Install configuration: ""
+[43.623s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch
+[43.624s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[43.625s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[43.626s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[43.633s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[43.635s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[43.636s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[43.638s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[43.640s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[43.641s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[43.643s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[43.646s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[43.646s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[43.648s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[43.651s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[43.653s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[43.654s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[43.656s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[43.658s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[43.659s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[43.660s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[43.660s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[43.662s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[43.662s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/rviz
+[43.663s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[43.664s] -- Installing: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[43.674s] -- Set runtime path of "/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node" to ""
+[43.680s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[43.682s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[43.684s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[43.685s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[43.686s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[43.687s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[43.689s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[43.690s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[43.692s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[43.693s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[43.695s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[43.696s] -- Installing: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[43.699s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[43.700s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[43.701s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[43.703s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[43.704s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[43.705s] -- Up-to-date: /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[43.741s] Invoked command in '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/install/eeen489_robot:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/install/ultrasonics:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/src/build/sllidar_ros2

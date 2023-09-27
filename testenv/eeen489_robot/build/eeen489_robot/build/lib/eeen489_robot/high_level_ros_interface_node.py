@@ -79,7 +79,7 @@ class localOdometryPublisher(Node):
 			0.0,0.0,0.0,0.0,0.0,1.0]
             # set acceleration to zero as an approximation or do linear fit between odom values
         # Swap the values of linear.x and linear.y in the equations
-        odom_msg.pose.pose.position.x = self.x + (odom_msg.twist.twist.linear.x *math.sin(self.yaw) -odom_msg.twist.twist.linear.y*math.cos(self.yaw)) * (self.time_now - self.time_before)
+        odom_msg.pose.pose.position.x = self.x + (odom_msg.twist.twist.linear.x *math.cos(self.yaw) -odom_msg.twist.twist.linear.y*math.sin(self.yaw)) * (self.time_now - self.time_before)
         odom_msg.pose.pose.position.y = self.y + (odom_msg.twist.twist.linear.y *math.cos(self.yaw) +odom_msg.twist.twist.linear.x*math.sin(self.yaw))  * (self.time_now - self.time_before)
         odom_msg.pose.pose.position.z = 0.0
         # As we rotate about the z-axis

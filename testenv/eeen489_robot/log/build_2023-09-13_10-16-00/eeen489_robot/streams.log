@@ -1,0 +1,25 @@
+[4.776s] Invoking command in '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot': PYTHONPATH=/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/build/eeen489_robot/prefix_override:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/eeen489_robot build --build-base /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/build/eeen489_robot/build install --record /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/build/eeen489_robot/install.log --single-version-externally-managed
+[6.537s] running egg_info
+[6.540s] writing build/eeen489_robot/eeen489_robot.egg-info/PKG-INFO
+[6.542s] writing dependency_links to build/eeen489_robot/eeen489_robot.egg-info/dependency_links.txt
+[6.543s] writing entry points to build/eeen489_robot/eeen489_robot.egg-info/entry_points.txt
+[6.544s] writing requirements to build/eeen489_robot/eeen489_robot.egg-info/requires.txt
+[6.546s] writing top-level names to build/eeen489_robot/eeen489_robot.egg-info/top_level.txt
+[6.554s] reading manifest file 'build/eeen489_robot/eeen489_robot.egg-info/SOURCES.txt'
+[6.560s] writing manifest file 'build/eeen489_robot/eeen489_robot.egg-info/SOURCES.txt'
+[6.561s] running build
+[6.561s] running build_py
+[6.564s] running install
+[6.565s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.566s]   warnings.warn(
+[6.574s] running install_lib
+[6.574s] running install_data
+[6.578s] copying launch/EEEN325_Robot_static_transform.launch.py -> /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/install/eeen489_robot/share/eeen489_robot
+[6.580s] running install_egg_info
+[6.588s] removing '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages/eeen489_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[6.590s] Copying build/eeen489_robot/eeen489_robot.egg-info to /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages/eeen489_robot-0.0.0-py3.10.egg-info
+[6.597s] running install_scripts
+[6.763s] Installing high_level_ros_interface_node script to /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/install/eeen489_robot/lib/eeen489_robot
+[6.766s] Installing low_level_ros_interface_node script to /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/install/eeen489_robot/lib/eeen489_robot
+[6.770s] writing list of installed files to '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/build/eeen489_robot/install.log'
+[7.177s] Invoked command in '/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot' returned '0': PYTHONPATH=/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/build/eeen489_robot/prefix_override:/home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/install/eeen489_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/eeen489_robot build --build-base /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/build/eeen489_robot/build install --record /home/ubuntu/Documents/engr489/ENGR489_UltrasonicNavigation/testenv/eeen489_robot/build/eeen489_robot/install.log --single-version-externally-managed

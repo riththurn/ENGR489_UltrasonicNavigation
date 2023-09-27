@@ -1,7 +1,7 @@
 from roboclaw_3 import Roboclaw
 import sys
 import math
-
+ 
 class MotorClass:
     def __init__(self,device: str = '/dev/ttyAMA0', baud: int = 38400, timeout: int = 0, retries: int = 1,l_x: float = 0.1680, l_y: float = 0.2075, wheelDiameter: float = 0.096, PPR: float = 537.7):
         """
@@ -29,6 +29,8 @@ class MotorClass:
         self.wheelDiameter = wheelDiameter
         self.PPR = PPR # Don't want the students to modify this
     def forwardKinematics(self,Vx: float,Vy: float ,Wz: float):
+        
+
         """
         : param Vx: The linear velocity that the robot should travel in the x-direction.
         : type Vx: Float
@@ -39,10 +41,10 @@ class MotorClass:
         : returns: The rotational velocity of motors w1, w2, w3, and w4.
         : rtype: Integer
         """
-        w1 = (Vx - Vy +(self.lengthX + self.lengthY)*Wz)/(self.wheelDiameter/2)
-        w2 = (Vx - Vy -(self.lengthX + self.lengthY)*Wz)/(self.wheelDiameter/2)
-        w3 = (Vx + Vy +(self.lengthX + self.lengthY)*Wz)/(self.wheelDiameter/2)
-        w4 = (Vx + Vy -(self.lengthX + self.lengthY)*Wz)/(self.wheelDiameter/2)
+        w1 = (Vx - Vy -(self.lengthX + self.lengthY)*Wz)/(self.wheelDiameter/2)
+        w2 = (Vx + Vy +(self.lengthX + self.lengthY)*Wz)/(self.wheelDiameter/2)
+        w3 = (Vx + Vy -(self.lengthX + self.lengthY)*Wz)/(self.wheelDiameter/2)
+        w4 = (Vx - Vy +(self.lengthX + self.lengthY)*Wz)/(self.wheelDiameter/2)
         return w1,w2,w3,w4
     def angularToSpeed(self,w1,w2,w3,w4):
         """
@@ -79,6 +81,7 @@ class MotorClass:
             s[i] = w[i] * self.PPR / (2*math.pi)
         return s    
     def movement(self,s1,s2,s3,s4):
+
         """
         : param s1: The Roboclaw speed to drive mecanum wheel one (QPPS)
         : type s1: float
@@ -105,6 +108,9 @@ class MotorClass:
             return 1
         else:
             return 0
+    def motorgetspeed():
+        return
+
     def inverseKinematics(self, w1, w2, w3, w4):
         """
         : param w1: The rotational velocity that mecanum wheel one is travelling at (rad.s^-1).
@@ -122,9 +128,9 @@ class MotorClass:
         : returns: The linear velocity of the robot platform in the x and y directions, and the rotational velocity about the x-axis.
         : rtype: Tuple(Float, Float, Float)
         """
-        Vx = (w1+w2+w3+w4)*(self.wheelDiameter/2)/4
-        Vy = (w1+w2-w3+w4)*(self.wheelDiameter/2)/4
-        Wz = (-w1 + w2 - w3 + w4)*(self.wheelDiameter/2) / (4*(self.lengthX + self.lengthY))
+        Vx = (w1+w2+w3+w4)*(self.wheelDiameter/2)/4 # all should be the same
+        Vy = (-w1+w2+w3-w4)*(self.wheelDiameter/2)/4 #1-3 op , 2-4, op
+        Wz = (-w1 + w2 - w3 + w4)*(self.wheelDiameter/2) / (4*(self.lengthX + self.lengthY)) #1-2, 3-4 opposite
         # return the Longitudinal, Translational and Angular velocity of the motors
         return Vx, Vy, Wz
 

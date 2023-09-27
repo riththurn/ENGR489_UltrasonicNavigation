@@ -28,19 +28,19 @@ Ultraa_transform = Node( # 1 "0x20"
             executable='static_transform_publisher',
             arguments = ['--x', '0', '--y', '0', '--z', '0', '--qx',str(quanrot[1]) , '--qy', str(quanrot[2]), '--qz',str(quanrot[3]), '--qw', str(quanrot[0]), '--frame-id', 'base_link', '--child-frame-id', 'Ultraa'],
         )
-quanrot = rad2Quan(22.5+45.0) # (45/2)+45*5 degrees
+quanrot = rad2Quan(-22.5) # (45/2)+45*5 degrees
 Ultrab_transform = Node(# marked || IE 2 "0x21"
             package='tf2_ros',
             executable='static_transform_publisher',
             arguments = ['--x', '0', '--y', '0', '--z', '0', '--qx',str(quanrot[1]) , '--qy', str(quanrot[2]), '--qz',str(quanrot[3]), '--qw', str(quanrot[0]), '--frame-id', 'base_link', '--child-frame-id', 'Ultrab'],
         )
-quanrot = rad2Quan(22.5+(45*2)) # (45/2)+45*5 degrees
+quanrot = rad2Quan(22.5+(45*2)+180) # (45/2)+45*5 degrees
 Ultrac_transform = Node(# marked ||| IE 3 "0x22" etc
             package='tf2_ros',
             executable='static_transform_publisher',
             arguments =  ['--x', '0', '--y', '0', '--z', '0', '--qx',str(quanrot[1]) , '--qy', str(quanrot[2]), '--qz',str(quanrot[3]), '--qw', str(quanrot[0]), '--frame-id', 'base_link', '--child-frame-id', 'Ultrac'],
         )
-quanrot = rad2Quan(22.5+(45*3)) # (45/2)+45*5 degrees
+quanrot = rad2Quan(22.5+(45*5)) # (45/2)+45*5 degrees
 Ultrad_transform = Node(
             package='tf2_ros',
             executable='static_transform_publisher',
@@ -52,19 +52,19 @@ Ultrae_transform = Node(
             executable='static_transform_publisher',
             arguments = ['--x', '0', '--y', '0', '--z', '0', '--qx',str(quanrot[1]) , '--qy', str(quanrot[2]), '--qz',str(quanrot[3]), '--qw', str(quanrot[0]), '--frame-id', 'base_link', '--child-frame-id', 'Ultrae'],
         )
-quanrot = rad2Quan(22.5+(45*5)) # (45/2)+45*5 degrees
+quanrot = rad2Quan(22.5+(45*3)) # (45/2)+45*5 degrees
 Ultraf_transform = Node(
             package='tf2_ros',
             executable='static_transform_publisher',
             arguments =  ['--x', '0', '--y', '0', '--z', '0', '--qx',str(quanrot[1]) , '--qy', str(quanrot[2]), '--qz',str(quanrot[3]), '--qw', str(quanrot[0]), '--frame-id', 'base_link', '--child-frame-id', 'Ultraf'],
         )
-quanrot = rad2Quan((22.5+(45*6))) # (45/2)+45*5 degrees
+quanrot = rad2Quan(-1.0*(22.5+(45*5))) # (45/2)+45*5 degrees
 Ultrag_transform = Node(
             package='tf2_ros',
             executable='static_transform_publisher',
             arguments =  ['--x', '0', '--y', '0', '--z', '0', '--qx',str(quanrot[1]) , '--qy', str(quanrot[2]), '--qz',str(quanrot[3]), '--qw', str(quanrot[0]), '--frame-id', 'base_link', '--child-frame-id', 'Ultrag'],
         )
-quanrot = rad2Quan(22.5+(45*7)) # (45/2)+45*5 degrees
+quanrot = rad2Quan(-1.0*(22.5+(45*6))) # (45/2)+45*5 degrees
 Ultrah_transform = Node(
             package='tf2_ros',
             executable='static_transform_publisher',

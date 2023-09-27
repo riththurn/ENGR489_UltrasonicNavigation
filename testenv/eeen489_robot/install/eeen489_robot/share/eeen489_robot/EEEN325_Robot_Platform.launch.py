@@ -78,6 +78,7 @@ def generate_launch_description():
 	
 	
 )
+	
 	joy_node = Node(
 		package='joy',
 		executable='joy_node',
@@ -109,7 +110,7 @@ def generate_launch_description():
 		]
 	)	
 	A1M8Lidar = IncludeLaunchDescription(  
-		PythonLaunchDescriptionSource([PathJoinSubstitution([FindPackageShare('sllidar_ros2'),'launch','sllidar_launch.py'])])
+		PythonLaunchDescriptionSource([PathJoinSubstitution([FindPackageShare('sllidar_ros2'),'launch','sllidar_a1_launch.py'])])
 		)
 	action_list =[
 		xbox_config_filepath_arg,
@@ -120,10 +121,12 @@ def generate_launch_description():
 		high_level_interface,
 		eeen325_transforms,
 		A1M8Lidar,
+		
 		twist_mux_config_filepath_arg,
 		twist_mux,
-		teleop_node,
+		
 		joy_node,
+		teleop_node,
 	]
 	ultrasonic_addr= [0x20,0x21,0x22,0x23,0x24,0x25,0x26,0x27]
 	for addr in ultrasonic_addr: 

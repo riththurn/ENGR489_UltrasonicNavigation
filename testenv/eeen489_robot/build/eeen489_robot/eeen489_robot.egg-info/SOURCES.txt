@@ -17,6 +17,7 @@ eeen489_robot/high_level_ros_interface_node.py
 eeen489_robot/low_level_ros_interface_node.py
 eeen489_robot/motorClass.py
 eeen489_robot/roboclaw_3.py
+eeen489_robot/swap_scan_axis.py
 launch/EEEN325_Robot_Platform.launch.py
 launch/EEEN325_Robot_static_transform.launch.py
 resource/eeen489_robot

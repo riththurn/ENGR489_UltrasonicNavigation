@@ -59,7 +59,7 @@ class localTwistSubscriber(Node):
 		#self.length_x = (self.platform_length - self.wheel_diameter)/2;
 		self.mc = MotorClass()
 		# self.mc = MotorClass(self.roboclaw_device, self.roboclaw_baud, self.roboclaw_timeout, self.roboclaw_retries, self.robot_lengthX, self.robot_lengthY , self.robot_wheelDiameter, self.motor_ppr)
-		#self.roboclaw = Roboclaw('/dev/ttyAMA0',38400)
+		#self.roboclaw = Roboclarcw('/dev/ttyAMA0',38400)
 		#self.roboclaw.Open()
 		self.subscription = self.create_subscription(
 			Twist,
@@ -84,8 +84,12 @@ class localTwistSubscriber(Node):
 	def listener_callback(self,msg):
 		# self.get_logger().info('I heard: [%.2f(Vx) %.2f(Vy) %.2f(Wz)] '%( msg.linear.x, msg.linear.y, msg.angular.z))
 		self.mc.setVelocity(msg.linear.x,msg.linear.y,msg.angular.z)
-		#[w1,w2,w3,w4] = self.forward_kinematics(msg.linear.x,msg.linear.y,msg.angular.z)
-		#[s1,s2,s3,s4] = self.angularToSpeed(w1,w2,w3,w4)		
+		#[w1,w2,w3,w4] = self.forward_kinematics(msg.linear.x,msg.linear.y,msg.angular.z) has no attribute forward kinomatics
+		[n,s1,s2,s3,s4]=self.mc.encoders()
+		self.get_logger().info('Motor speeds: [%.2f(s1) %.2f(s2 %.2f(s3) %.2fs4]'%(s1,s2,s3,s4))
+		#[s1,s2,s3,s4] = self.angularToSpeed(w1,w2,w3,w4)	
+		#self.get_logger().info('{} {} {} {}'.format( s1, s2, s3,s4))
+		# 	
 		#self.motor_movement(s1,s2,s3,s4)
 		#self.motor_movement(100,100,100,100) # test encoder routine
 	def timer_callback(self):
@@ -104,7 +108,7 @@ class localTwistSubscriber(Node):
 			self.get_logger().info('Could not obtain motor speeds.{}'.format(err))
 			return
 		self.publisher_.publish(msg)
-		#self.get_logger().info('Motor speeds: [%.2f(Vx) %.2f(Vy) %.2f(Wz)]'%(msg.linear.x,msg.linear.y,msg.angular.z))
+		self.get_logger().info('Motor speeds: [%.2f(Vx) %.2f(Vy) %.2f(Wz)]'%(msg.linear.x,msg.linear.y,msg.angular.z))
 		# encoderVelocity1 = self.roboclaw.ReadSpeedM1(0x80)
 		# encoderVelocity2 = self.roboclaw.ReadSpeedM2(0x80)
 		# encoderVelocity3 = self.roboclaw.ReadSpeedM1(0x81)
