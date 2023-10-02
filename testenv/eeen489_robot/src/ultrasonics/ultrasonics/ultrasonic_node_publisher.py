@@ -22,17 +22,17 @@ class MyPublisher(Node):
         self.publisher_ = self.create_publisher(Range,"Ultra{}".format(chr(65+self.get_parameter('addr').value)),10)
         self.sensor = DFRobot_URM13_I2C(i2c_addr = self.get_parameter('addr').value, bus = 1)
         
-        timer_period = 0.2
-        self.timer = 1/5
+        timer_period = 0.1
+
         self.timer = self.create_timer(timer_period,self.timer_callback)
         self.sensor_running = False
         self.sensor_measure_mode_set = False
     def timer_callback(self):
         try:
             while (self.sensor.begin() == False and self.sensor_running == False):
-                self.get_logger().warn('Please check that sensor {} is properly connected'.format(self.get_parameter('addr')))
+         #       self.get_logger().warn('Please check that sensor {} is properly connected'.format(self.get_parameter('addr')))
             if(self.sensor_running == False):
-                self.get_logger().info("sensor begin successfully!!!\n")
+               # self.get_logger().info("sensor begin successfully!!!\n")
                 self.sensor_running = True
             if(self.sensor_measure_mode_set ==False):
                 self.sensor_measure_mode_set = True
