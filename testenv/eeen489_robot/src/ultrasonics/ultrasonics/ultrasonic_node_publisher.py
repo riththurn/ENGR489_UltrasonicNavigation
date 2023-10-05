@@ -18,7 +18,7 @@ class MyPublisher(Node):
         
         super().__init__('ultrasonic_publisher')
         self.declare_parameter('addr',0x20)
-        self.get_logger().info('Please check that sensor {} is properly connected'.format(self.get_parameter('addr')))
+        #self.get_logger().info('Please check that sensor {} is properly connected'.format(self.get_parameter('addr')))
         self.publisher_ = self.create_publisher(Range,"Ultra{}".format(chr(65+self.get_parameter('addr').value)),10)
         self.sensor = DFRobot_URM13_I2C(i2c_addr = self.get_parameter('addr').value, bus = 1)
         
@@ -29,11 +29,11 @@ class MyPublisher(Node):
         self.sensor_measure_mode_set = False
     def timer_callback(self):
         try:
-            while (self.sensor.begin() == False and self.sensor_running == False):
+         #   while (self.sensor.begin() == False and self.sensor_running == False):
          #       self.get_logger().warn('Please check that sensor {} is properly connected'.format(self.get_parameter('addr')))
-            if(self.sensor_running == False):
-               # self.get_logger().info("sensor begin successfully!!!\n")
-                self.sensor_running = True
+         #   if(self.sensor_running == False):
+         #       self.sensor_running = True
+                
             if(self.sensor_measure_mode_set ==False):
                 self.sensor_measure_mode_set = True
                 self.sensor.set_measure_mode(self.sensor.E_INTERNAL_TEMP | 
@@ -47,7 +47,7 @@ class MyPublisher(Node):
             self.sensor.passive_measurement_TRIG()
             distance_cm = self.sensor.get_distance_cm()
             msg = Range()
-            msg.field_of_view = float(1.0472)
+            msg.field_of_view = float(0.698132) #60 deg cone documented cone (1.0472) too wide, attempting 0.698132 (40deg) 
             msg.radiation_type = 0
 
             msg.min_range=0.15
